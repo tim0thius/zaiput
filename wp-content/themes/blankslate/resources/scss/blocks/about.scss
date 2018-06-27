@@ -1,0 +1,81 @@
+.block-about {
+	padding: 120px 0;
+
+	.grid__container {
+		@include flex(center, center, row);
+	}
+	.grid {
+		display: flex;
+		align-items: stretch;
+	}
+}
+.block-about__imagebox {
+	padding-bottom: 135%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 5px solid #fff;
+}
+.block-about__content {
+	@include flex(center, center, row);
+	height: 100%;
+}
+.block-about__content-inner {
+	padding: 60px 60px 60px 120px;
+	position: relative;
+	text-align: center;
+}
+.block-about__headline {
+	color: $RED;
+	font-family: $HEADLINE_FONT;
+	font-size: 28px;
+	font-weight: 100;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.block-about__summary {
+	font-family: $BODY_FONT;
+	font-size: 18px;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+.block-about__readmore {
+	color: $RED;
+	font-family: $BODY_FONT;
+	font-size: 18px;
+	line-height: 1;
+}
+.block-about__readmore-link {
+	color: $GREY;
+}
+
+#block-hero-content--about {
+	.grid__super-container {
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+	.grid__container {
+		width: 100%;
+	}
+	.block-about__content-inner {
+		padding-bottom: 90px;
+	}
+	.block-about__content {
+		color: #fff;
+		max-width: 500px;
+
+		span, h2, p, a {
+			color: inherit !important;
+		}
+		.block-about__label {
+			top: 187px;
+		}
+	}
+}
+#block-about--frontpage {
+	.grid__container {
+		background-color: $OFF_WHITE;
+		padding: 0;
+	}
+}

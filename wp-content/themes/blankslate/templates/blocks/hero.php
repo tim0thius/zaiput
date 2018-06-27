@@ -1,0 +1,27 @@
+<?php
+$backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
+?>
+<section id="block-hero--<?= $hero_id ?>" class="block-hero">
+	<div class="grid__super-container" style="background-image: url(<?= $backgroundImg[0] ?>);">
+
+		<div class="grid__container">
+			<div class="block-hero__content" >
+				<h2 class="block-hero__headline"><span>&nbsp;Separation &&nbsp;&nbsp;<br/>&nbsp;&nbsp;Extraction&nbsp;&nbsp;<br/>&nbsp;&nbsp;Re-Invented&nbsp;</span></h2>
+			</div>
+		</div>
+
+		
+
+		<div class="block-hero__slideshow" style="display:none;" >
+		    @if( $hero_images )
+					    <div class="block-hero__slider slider" >
+					        @foreach( $hero_images as $image )
+					            <div>
+					            	<img data-lazy="{{$image['url']}}" alt="{{the_title()}}">
+					            </div>
+					        @endforeach
+					    </div>
+			@endif
+		</div>	
+	</div>
+</section>

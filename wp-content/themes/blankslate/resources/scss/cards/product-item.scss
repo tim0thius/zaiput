@@ -1,0 +1,38 @@
+.card-product-item {  
+    margin-top: 15px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.card-product-item__details {
+	// @include flex($justify: center);
+	text-align: left;
+}
+.card-product-item__background {
+	@include flex($justify: center);
+
+	background-position: center;
+	background-size: cover; 
+	height: 100%;
+	margin-bottom: 30px;
+	padding-bottom: 100%;
+	transition: all .5s;
+	width: 100%;
+}
+.card-product-item__link {
+	color: $GREY;
+	text-decoration: none;
+}
+.card-product-item__title {
+	color: $RED;
+	display: block;
+	font-family: $HEADLINE_FONT;
+	font-size: 22px;
+	font-weight: 100;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.card-product-item__label {
+	font-family: $BODY_FONT;
+	font-size: 21px;
+}

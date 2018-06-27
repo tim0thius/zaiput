@@ -1,0 +1,27 @@
+.block-cta {
+	padding: 90px 0;
+
+	.grid__container {
+		@include flex(center, center, row);
+	}
+}
+.block-cta__headline {
+	font-family: $BODY_FONT;
+	font-size: 28px;
+	letter-spacing: .05em;
+}
+.block-cta__button {
+	font-family: $BODY_FONT;
+	margin-left: 30px;
+}
+.block-cta__image{
+	margin-right: 60px;
+	width: 180px;
+}
+.block-cta__content {
+	color: $PURPLE;
+	font-family: $BODY_FONT;
+	font-size: 22px;
+	line-height: 36px;
+	width: 600px;
+}

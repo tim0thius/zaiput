@@ -1,0 +1,38 @@
+.block-header {
+	@include flex(flex-start, center, column);
+	height: 200px;
+}
+
+.block-header--menu {
+	#menu-menu-1 {
+		@include flex(center, center, row);
+		min-height: 60px;
+	}
+
+	.sub-menu {
+		display: none;
+	} 
+
+	.menu-item a {
+		color: $DARK_GREY;
+		font-size: 16px;
+		font-family: $BODY_FONT;
+		font-weight: 100;
+		letter-spacing: .2em;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin: 10px 20px;
+	}
+	
+}
+
+.block-header__logo {
+
+}
+.block-header--site-title {
+	a {
+		display: block;
+		text-align: center;
+
+	}
+}

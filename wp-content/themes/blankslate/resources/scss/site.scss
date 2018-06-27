@@ -1,0 +1,25 @@
+body {
+	background-color: $BG_COLOR;
+	color: $DARK_GREY;
+	font-family: $BODY_FONT;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+#splash {
+	@include flex(center, center, row);
+
+	background-image: linear-gradient(#fafafa, #fff);
+	position: fixed;
+	width: 100vw;
+    height: 100vh;
+
+	img {
+
+	}
+}
+
+section > .grid__container {
+	// @include flex();
+	padding: 15px;
+}
