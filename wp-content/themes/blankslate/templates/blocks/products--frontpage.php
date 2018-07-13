@@ -1,4 +1,7 @@
 <?php
+	$args = array('post_type' => 'product');
+	$category_posts = new WP_Query($args);
+
 	$index = 0;
 	if(get_row_index()){
 		$index = get_row_index();

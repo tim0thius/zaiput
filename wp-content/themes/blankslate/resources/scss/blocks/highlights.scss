@@ -1,0 +1,23 @@
+.block-highlights {
+	.grid__container {
+		max-width: 1100px;
+	}
+}
+.block-highlights__heading {
+	color: $PURPLE;
+	font-family: $BODY_FONT;
+	font-size: 22px;
+	margin: 30px 0;
+}
+.block-highlights__divider {
+	height: 1px;
+	width: 100%;
+	background-color: $LIGHT_GREY;
+	margin: 30px 0;
+}
+.block-highlights__publications-message {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 26px;
+	margin-bottom: 30px;
+}

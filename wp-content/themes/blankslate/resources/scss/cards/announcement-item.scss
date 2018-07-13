@@ -1,0 +1,43 @@
+.card-announcement-item { 
+	@include flex($align: flex-start); 
+    margin-bottom: 30px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.card-announcement-item__details {
+	flex: 1;
+	text-align: left;
+}
+.card-announcement-item__background {
+	@include flex($justify: center);
+
+	background-position: center;
+	background-size: cover; 
+	height: 100px;
+	margin-right: 15px;
+	width: 100px;
+}
+.card-announcement-item__link {
+	color: $GREY;
+	text-decoration: none;
+}
+.card-announcement-item__title {
+	color: $RED;
+	display: block;
+	font-family: $HEADLINE_FONT;
+	font-size: 22px;
+	font-weight: 100;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.card-announcement-item__label {
+	font-family: $BODY_FONT;
+	font-size: 21px;
+}
+.card-announcement-item__divider {
+	height: 1px;
+	width: 200px;
+	background-color: $LIGHT_GREY;
+	margin-bottom: 30px;
+}

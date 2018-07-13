@@ -2,7 +2,7 @@
 	$backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
 ?>
 <div class="card-product-item" >
-    <div class="card-product-item__background" style="background-image:url({{$backgroundImg[0]}});">
+    <div class="card-product-item__background" style="background-image:url({{the_field('homepage_image')}});">
     	
     </div>
     <div class="card-product-item__details">

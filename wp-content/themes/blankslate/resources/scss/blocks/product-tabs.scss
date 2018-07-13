@@ -1,0 +1,42 @@
+.block-product-tabs {
+    padding-bottom: 60px;
+}
+.block-product-tabs__content {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+    width: 100%;
+    transition: opacity .3s;
+
+    &.active {
+        display: block;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    font-size: 20px;
+    line-height: 30px;
+
+    a {
+        font-weight: 600;
+    }
+}
+.block-product-tabs__container {
+    position: relative;
+}
+
+.block-product-tabs__tab {
+    font-size: 20px;
+
+    a {
+        display: block;
+        padding: 10px 0;
+        cursor: pointer;
+        
+
+        &.active {
+            color: $RED;
+            font-weight: 400;
+        }
+    }
+}

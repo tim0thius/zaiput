@@ -52,5 +52,20 @@ jQuery(document).ready(function ($) {
 	    }]
 	});	
 
+	$(".block-highlights__testimonials-slider").slick({
+	  // normal options...
+	  infinite: true,
+	  dots: true, 
+	  adaptiveHeight: true
+	});
+
 	$('section.block-hero-content').last().addClass('last');
+
+	$('.action--open-tab').click(function(){
+		var targetId = $(this).attr('data-tab-target');
+		$(this).addClass('active').parent().siblings().children().removeClass('active');
+
+		$('.block-product-tabs__content[id="'+ targetId +'"]').addClass('active').siblings().removeClass('active');
+		console.log(targetId);
+	});
 })

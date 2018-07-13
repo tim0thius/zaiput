@@ -1,7 +1,7 @@
 <section id="block-about--<?= $about_id ?>" class="block-about" role="main" >
 		<div class="grid__container">
 			<div class="grid">
-				<div class="grid__item one-whole desk--one-half">
+				<div class="grid__item one-half portable--one-whole">
 					<div class="block-about__content">
 						<div class="block-about__content-inner">
 							<h2 class="block-about__headline">Zaiput in Space</h2>
@@ -10,7 +10,7 @@
 						</div>
 					</div>
 				</div><!-- 
-				 --><div class="grid__item one-whole desk--one-half">
+				 --><div class="grid__item one-half portable--one-whole">
 					<div class="block-about__imagebox" style="background-image: url('{{the_field('about_image', 'option')}}')"></div>
 				</div>
 			</div>
