@@ -25,6 +25,7 @@
                         <?php bloginfo( 'description' ); ?>
                     </div>
                 </section>
+                <a href="/contact-us" class="component-button block-header__cta">contact us</a>
                 <nav class="block-header--menu" role="navigation">
                     <!-- <div id="search">
     		<?php //get_search_form(); ?>

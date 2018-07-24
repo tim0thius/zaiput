@@ -20,8 +20,11 @@
 	width: 100%;
 }
 .card-product-item__link {
-	color: $GREY;
-	text-decoration: none;
+	color: $DARK_GREY;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
 }
 .card-product-item__title {
 	color: $RED;

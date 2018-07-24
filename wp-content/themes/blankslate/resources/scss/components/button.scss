@@ -1,10 +1,13 @@
 .component-button {
 	@include flex(center, center, row);
-	border: 2px solid $DARK_GREY;
-	color: $DARK_GREY;
-	font-size: 38px;
-	height: 76px;
-	padding: 0 40px;
+	// height: 76px;
+	background-color: $RED;
+	border-radius: 100px;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: .03em;
+	min-width: 200px;
+	padding: 15px 20px;
 	text-align: center;
 	text-decoration: none;
 }

@@ -1,9 +1,23 @@
 .block-header {
 	@include flex(flex-start, center, column);
 	height: 200px;
+	padding: 0 15px;	
+}
+.block-header__cta {
+	margin-top: 30px;
+
+	@media screen and ( min-width: $LAP ) {
+		position: absolute;
+		right: 30px;
+		top: 95px;	
+		margin-top: 0;
+	}
+	
 }
 
 .block-header--menu {
+	//temp
+	display: none;
 	#menu-menu-1 {
 		@include flex(center, center, row);
 		min-height: 60px;
@@ -28,7 +42,7 @@
 }
 
 .block-header__logo {
-
+	max-width: 100%;
 }
 .block-header--site-title {
 	a {

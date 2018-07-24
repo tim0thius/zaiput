@@ -4,7 +4,7 @@
 <section id="" class="block-page" role="main" >
 	<div class="grid__container">
 		<div class="grid">
-			<div class="grid__item one-whole desk--one-half">
+			<div class="grid__item one-whole _____desk--one-half">
 				<div class="block-about__content">
 					<div class="block-about__content-inner">
 
@@ -21,7 +21,7 @@
 					</div>
 				</div>
 			</div><!-- 
-			 --><div class="grid__item one-whole desk--one-half">
+			 --><div style="display:none;" class="grid__item one-whole _____desk--one-half">
 				<div class="block-about__imagebox">
 					<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
 				</div>

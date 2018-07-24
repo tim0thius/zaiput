@@ -3,6 +3,9 @@ $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 
 ?>
 <section id="block-hero--<?= $hero_id ?>" class="block-hero">
 	<div class="grid__super-container" style="background-image: url(<?= $backgroundImg[0] ?>);">
+		<video autoplay muted loop id="block-hero__bg-video" class="block-hero__bg-video">
+		  <source src="/wp-content/themes/blankslate/assets/video/bg.mp4" type="video/mp4">
+		</video>
 
 		<div class="grid__container">
 			<div class="block-hero__content" >
