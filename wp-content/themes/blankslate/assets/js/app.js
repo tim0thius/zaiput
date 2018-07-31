@@ -73,56 +73,62 @@
 __webpack_require__(2);
 
 jQuery(document).ready(function ($) {
-	$('.action--show-slideshow').click(function (e) {
-		var initialSlideIndex = $(this).attr('data-index') - 1 + 1; // no idea why this works
-
-		$(".block-gallery__slider").slick({
-			// normal options...
-			initialSlide: initialSlideIndex,
-			infinite: true,
-			dots: true,
-			adaptiveHeight: true
-		});
-
-		$('body').addClass('state--slideshow-visible');
+	$('.action--toggle-menu').click(function (e) {
+		$('.block-header--menu').toggleClass('state--open');
+		$('.block-header__menu-toggle').toggleClass('state--open');
+		e.preventDefault();
 	});
 
-	$('.action--hide-slideshow').click(function () {
-		$('body').removeClass('state--slideshow-visible');
-		$('.block-gallery__slider').slick('unslick');
-	});
+	// $('.action--show-slideshow').click(function(e){
+	// 	var initialSlideIndex = $(this).attr('data-index') - 1 + 1 // no idea why this works
 
-	$(".block-hero__slider").slick({
+	// 		$(".block-gallery__slider").slick({
+	// 		  // normal options...
+	// 		  initialSlide: initialSlideIndex,
+	// 		  infinite: true,
+	// 		  dots: true, 
+	// 		  adaptiveHeight: true
+	// 		});
 
-		// normal options...
-		infinite: true,
-		dots: false,
-		lazyload: 'ondemand',
-		// the magic
-		responsive: [{
+	// 	$('body').addClass('state--slideshow-visible')
+	// })
 
-			breakpoint: 1024,
-			settings: {
-				slidesToShow: 1,
-				infinite: true,
-				dots: true
-			}
+	// $('.action--hide-slideshow').click(function(){
+	// 	$('body').removeClass('state--slideshow-visible')
+	// 	$('.block-gallery__slider').slick('unslick');
+	// })
 
-		}, {
+	// $(".block-hero__slider").slick({
 
-			breakpoint: 600,
-			settings: {
-				slidesToShow: 1,
-				dots: true
-			}
+	//   // normal options...
+	//   infinite: true,
+	//   dots: false,
+	//   lazyload: 'ondemand',
+	//   // the magic
+	//   responsive: [{
 
-		}, {
+	//       breakpoint: 1024,
+	//       settings: {
+	//         slidesToShow: 1,
+	//         infinite: true,
+	//         dots: true
+	//       }
 
-			breakpoint: 300,
-			settings: "unslick" // destroys slick
+	//     }, {
 
-		}]
-	});
+	//       breakpoint: 600,
+	//       settings: {
+	//         slidesToShow: 1,
+	//         dots: true
+	//       }
+
+	//     }, {
+
+	//       breakpoint: 300,
+	//       settings: "unslick" // destroys slick
+
+	//     }]
+	// });	
 
 	$(".block-highlights__testimonials-slider").slick({
 		// normal options...

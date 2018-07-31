@@ -31,6 +31,9 @@
 							@if(get_field(ordering_info_content))
 							<li class="block-product-tabs__tab"><a data-tab-target="ordering" class="action--open-tab" >Ordering Information</a></li>
 							@endif
+							@if(get_field(product_faq_content))
+							<li class="block-product-tabs__tab"><a data-tab-target="faq" class="action--open-tab" >FAQ</a></li>
+							@endif
 						</ul>
 					</div><!-- 
 					 --><div class="grid__item three-quarters">	
@@ -70,6 +73,9 @@
 						<div class="block-product-tabs__content" id="ordering" >
 							<!-- Ordering Information -->
 							{{the_field('ordering_info_content')}}
+						</div>	<div class="block-product-tabs__content" id="faq" >
+							<!-- product FAQ -->
+							{{the_field('product_faq_content')}}
 						</div>					
 					 </div>							
 					</div>

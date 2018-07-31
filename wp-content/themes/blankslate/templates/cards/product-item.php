@@ -7,7 +7,7 @@
     </div>
     <div class="card-product-item__details">
     	<h2 class="card-product-item__title">{{the_title()}}</h2>
-    	<p class="card-product-item__excerpt">{{the_excerpt()}}</p>
+    	<div class="card-product-item__excerpt">{{the_excerpt()}}</div>
     	<a class="card-product-item__link" href="{{ the_permalink()}}">learn more</a>
     </div>
 </div>

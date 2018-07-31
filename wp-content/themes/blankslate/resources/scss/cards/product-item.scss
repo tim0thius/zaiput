@@ -39,3 +39,15 @@
 	font-family: $BODY_FONT;
 	font-size: 21px;
 }
+.card-product-item__excerpt {
+	ul {
+		line-height: 1;
+		list-style-position: outside;
+		list-style-type: disc;
+		padding-left: 20px;
+
+		li {
+			margin: 5px 0;
+		}
+	}
+}

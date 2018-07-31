@@ -13,7 +13,7 @@
     <div id="wrapper" class="hfeed">
         <div class="grid__container">
             <header class="block-header" role="banner">
-                <section class="block-header--branding">
+                <section class="block-header__branding">
                     <div class="block-header--site-title">
                         <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?>
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">                
@@ -21,17 +21,25 @@
                         </a>
                         <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?>
                     </div>
-                    <div class="block-header--site-description">
-                        <?php bloginfo( 'description' ); ?>
-                    </div>
+                    <?php if(bloginfo( 'description' )) : ?>
+                        <div class="block-header--site-description">
+                            <?php bloginfo( 'description' ); ?>
+                        </div>
+                    <?php endif; ?>
+                    <a href="/contact-us" class="component-button block-header__cta block-header__cta--desktop"><span>contact us</span></a>
                 </section>
-                <a href="/contact-us" class="component-button block-header__cta">contact us</a>
+                
                 <nav class="block-header--menu" role="navigation">
-                    <!-- <div id="search">
-    		<?php //get_search_form(); ?>
-    		</div> -->
+                            <!-- <div id="search">
+            		<?php //get_search_form(); ?>
+            		</div> -->
                     <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+                    <a href="/contact-us" class="component-button block-header__cta block-header__cta--mobile"><span>contact us</span></a>
                 </nav>
+                <a href="" class="block-header__menu-toggle action--toggle-menu">
+                    <span class="block-header__menu-open"><img src="/wp-content/themes/blankslate/assets/img/menu.svg" alt=""></span>
+                    <span class="block-header__menu-close">X</span>
+                </a>
             </header>
         </div>
         <div id="container">

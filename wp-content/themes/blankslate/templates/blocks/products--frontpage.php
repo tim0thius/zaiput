@@ -32,6 +32,7 @@
 				    Oops, there are no posts.
 				<?php
 				   endif;
+				   wp_reset_postdata();
 				?>
 			</div>
 		</div>

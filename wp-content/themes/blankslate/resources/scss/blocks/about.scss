@@ -1,6 +1,6 @@
 .block-about {
 	background-color: #fff;
-	padding: 120px 0;
+	padding: 60px 0;
 
 	.grid__container {
 		@include flex(center, center, row);
@@ -27,7 +27,7 @@
 .block-about__content-inner {
 	padding: 60px;
 	position: relative;
-	text-align: center;
+	text-align: left;
 }
 .block-about__headline {
 	color: $RED;
@@ -81,5 +81,8 @@
 	.grid__container {
 		background-color: $OFF_WHITE;
 		padding: 0;
+	}
+	.block-about__content-inner {
+		text-align: center;
 	}
 }

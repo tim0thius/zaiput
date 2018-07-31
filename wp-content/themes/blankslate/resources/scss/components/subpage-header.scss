@@ -1,0 +1,17 @@
+.component-subpage-header {
+	@include flex(center, center, column);
+
+	background-color: $PURPLE	;
+	background-image: linear-gradient(90deg, transparent 15%, $RED 50%);
+	background-size: cover;
+	color: #fff;
+	max-height: none;
+	overflow: hidden;
+    background-position: center center;
+    min-height: 400px;
+
+	@media screen and ( min-width: $LAP ) {
+		padding-left: 30px;
+	}
+		
+}
