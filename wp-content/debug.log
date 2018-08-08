@@ -13885,3 +13885,7 @@ Stack trace:
 [08-Aug-2018 13:23:46 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
 [08-Aug-2018 13:24:52 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
 [08-Aug-2018 13:24:52 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[08-Aug-2018 13:26:53 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[08-Aug-2018 13:26:53 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[08-Aug-2018 13:28:54 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[08-Aug-2018 13:28:54 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
