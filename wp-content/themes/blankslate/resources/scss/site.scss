@@ -36,3 +36,43 @@ section > .grid__container {
 	// @include flex();
 	padding: 15px 30px;
 }
+
+.table-wrap {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    overflow-x: scroll;
+    width: 100%;
+    max-width: 100%;
+
+    table {
+        border: 1px solid #ddd;
+        border-right: 0 solid;
+        border-left: 0 solid;
+        margin-right: -1px;
+        min-width: 800px;
+
+        th {
+            font-weight: bold;
+        }
+        td, th {
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            color: #000;
+            font-size: 15px;
+            padding: 3px 10px;
+            vertical-align: top;
+
+            &:last-child {
+                border-right: 0 solid;
+            }
+        }
+    }
+}
+.table-help {
+    margin-top: 10px;
+    display: block;
+
+    @media screen and ( min-width: 1090px ) {
+        display: none;
+    }
+}
