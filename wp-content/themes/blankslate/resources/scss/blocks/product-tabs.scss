@@ -53,6 +53,10 @@
         display: flex;
         justify-content: center;
         margin-bottom: 60px;
+
+        img {
+            max-width: 100%;
+        }
     }
     ul {
         list-style-type: circle;
@@ -60,6 +64,7 @@
         margin-left: 20px;
     }
     li {
+        font-size: 18px;
         margin-bottom: 15px;
     }
     .anchor-list {
@@ -71,6 +76,7 @@
     }
     .table-wrap {
         border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
         overflow-x: scroll;
         width: 100%;
         max-width: 100%;
@@ -78,6 +84,7 @@
         table {
             border: 1px solid #ddd;
             border-right: 0 solid;
+            border-left: 0 solid;
             margin-right: -1px;
             min-width: 800px;
 
@@ -89,7 +96,7 @@
                 border-right: 1px solid #ddd;
                 color: #000;
                 font-size: 15px;
-                padding: 3px;
+                padding: 3px 10px;
                 vertical-align: top;
 
                 &:last-child {

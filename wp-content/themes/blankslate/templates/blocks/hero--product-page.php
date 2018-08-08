@@ -5,7 +5,7 @@
 		$product_class = 'product-right';
 	}
 ?>
-<section id="block-hero--<?= $hero_id ?>" class="block-hero">
+<section id="block-hero--<?= $hero_id ?>" class="block-hero block-hero--product-<?= get_the_id() ?>">
 	<div class="grid__super-container" style="background-image: url({{the_field('background_image')}});">
 	</div>
 	<div class="grid__container <?= $product_class ?>">

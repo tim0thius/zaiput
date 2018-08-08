@@ -86,6 +86,8 @@
 
 
 #block-hero--product-page {
+	overflow: hidden;
+
 	.grid__super-container {
 		@include flex(flex-start, flex-start, row);
 
@@ -105,8 +107,12 @@
 		
 	}
 	.block-hero__isolated-image {
-		margin-top: -50%;
+		margin-top: 50px;
 		max-width: 100%;
+
+		@media screen and ( min-width: $LAP ) {
+			margin-top: -50%;
+		}
 	}
 	.block-hero__content {
 		padding-top: 30px;
@@ -144,10 +150,20 @@
 
 	.product-right {
 		.block-hero__isolated-image {
-			margin-top: -10%;
-			max-width: none;
+			margin-top: 10px;		
 			position: relative;
-			right: 300px;
+			right: 140px;
+			max-width: 380px;
+			
+			@media screen and ( min-width: $LAP ) {
+				margin-top: -10%;
+				max-width: 600px;
+				right: 275px;
+			}
+
+		}
+		.block-hero__heading {
+			width: 250px;
 		}
 	}
 }
@@ -156,4 +172,15 @@
 	width: 100%;
 	background-color: $LIGHT_GREY;
 	margin: 30px 0;
+}
+
+// specific product tweaks
+.block-hero--product-82 {
+	.block-hero__isolated-image {
+		margin-top: 50px !important;
+
+		@media screen and ( min-width: $LAP ) {
+				margin-top: -25% !important;
+			}
+	}
 }
