@@ -31,7 +31,7 @@
     }
 
     h3 {
-        border-bottom: 1px solid $LIGHT_GREY;
+        // border-bottom: 1px solid $LIGHT_GREY;
         color: $RED;
         font-family: $HEADLINE_FONT;
         font-size: 18px;
@@ -45,7 +45,23 @@
         font-size: 18px;
         font-weight: 600;
         margin-bottom: 15px;
-    }    
+    }  
+    .callout {
+        background-color: #eee;
+        padding: 60px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    ul {
+        list-style-type: circle;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    li {
+        margin-bottom: 15px;
+    }
 }
 .block-product-tabs__container {
     position: relative;

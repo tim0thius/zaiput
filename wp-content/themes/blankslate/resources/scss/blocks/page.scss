@@ -4,9 +4,14 @@
 		margin: -200px auto 120px;
 		padding: 90px;
 	}
-}
-.block-page {
-
+	// .callout {
+	//     background-color: #eee;
+	//     padding: 60px;
+	//     border-radius: 10px;
+	//     display: flex;
+	//     justify-content: center;
+	//     margin-bottom: 60px;
+	// }
 }
 .block-page__imagebox {
 	@include flex(flex-start, center, row);

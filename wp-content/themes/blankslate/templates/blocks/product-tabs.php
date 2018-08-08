@@ -10,7 +10,7 @@
 							@if(get_field(features_content))
 							<li class="block-product-tabs__tab"><a data-tab-target="features" class="action--open-tab" >Features</a></li>
 							@endif
-							@if(get_field(how-it-works_content))
+							@if(get_field(how_it_works_content))
 							<li class="block-product-tabs__tab"><a data-tab-target="how" class="action--open-tab" >How It Works</a></li>
 							@endif
 							@if(get_field(performance_content))
@@ -48,7 +48,7 @@
 						</div>
 						<div class="block-product-tabs__content" id="how" >
 							<!-- How It Works -->
-							{{the_field('how-it-works_content')}}
+							{{the_field('how_it_works_content')}}
 						</div>
 						<div class="block-product-tabs__content" id="performance" >
 							<!-- Performance -->
