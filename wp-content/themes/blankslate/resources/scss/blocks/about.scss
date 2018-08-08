@@ -44,13 +44,22 @@
 	margin-bottom: 20px;
 }
 .block-about__readmore {
+	align-items: center;
 	color: $RED;
+	display: flex;
+	justify-content: center;
 	font-family: $BODY_FONT;
 	font-size: 18px;
 	line-height: 1;
 }
 .block-about__readmore-link {
 	color: $GREY;
+}
+.block-about__link-icon {
+	background-color: $RED;
+	margin-right: 10px;
+	padding: 5px;
+	width: 15px;
 }
 
 #block-hero-content--about {

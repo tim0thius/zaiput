@@ -19,7 +19,7 @@
 }
 .block-page__content {
 
-	p {
+	p, li, a {
 		font-size: 18px;
 		line-height: 1.5;
 		margin-bottom: 30px
@@ -44,6 +44,22 @@
 		font-size: 18px;
 		font-weight: 600;
 		margin-bottom: 15px;
+	}
+
+	a {
+		color: #000;
+		font-weight: 600;
+	}
+
+	ul {
+		list-style-type: circle;
+		padding-left: 15px;
+	}
+
+}
+.anchor-list {
+	a {
+		text-decoration: none;
 	}
 }
 .block-page__content-inner {

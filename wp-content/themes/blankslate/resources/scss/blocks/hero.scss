@@ -141,6 +141,15 @@
 			}
 		}
 	}
+
+	.product-right {
+		.block-hero__isolated-image {
+			margin-top: -10%;
+			max-width: none;
+			position: relative;
+			right: 300px;
+		}
+	}
 }
 .block-hero__divider {
 	height: 1px;

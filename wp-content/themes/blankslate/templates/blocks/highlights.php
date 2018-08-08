@@ -14,7 +14,7 @@
 							<div class="block-highlights__heading"><h3>News & Events</h3></div>
 						</div>
 					</div>
-					<div class="grid">
+					<div class="grid grid--scrollable">
 							<?php
 							   if($announcement_posts->have_posts()) : 
 							   	$counter = 0;
@@ -25,6 +25,11 @@
 							 --><div class="grid__item one-whole">
 								<?php
 									$backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
+									$placeholderBackgroundImg = get_field('placeholder_image', 'option');
+
+									if(!$backgroundImg){
+										$backgroundImg[0] = $placeholderBackgroundImg;
+									}
 								?>
 								<div class="card-announcement-item" >
 								    <div class="card-announcement-item__background" style="background-image:url({{$backgroundImg[0]}});">
@@ -32,7 +37,7 @@
 								    </div>
 								    <div class="card-announcement-item__details">
 								    	<h2 class="card-announcement-item__title">{{the_title()}}</h2>
-								    	<p class="card-announcement-item__excerpt">{{the_excerpt()}}</p>
+								    	<div class="card-announcement-item__excerpt">{{the_excerpt()}}</div>
 								    	<a class="card-announcement-item__link" href="{{ the_permalink()}}">read more</a>
 								    </div>
 								</div>
@@ -42,11 +47,11 @@
 							</div><!-- 
 							 --><?php
 							 		$counter ++;
-							         if($counter == 3){break;}
+							         if($counter == 9){break;}
 							      endwhile;
 							   else: 
 							?>
-							    Oops, there are no announcements.
+							    There are no announcements. Please check back later.
 							<?php
 							   endif;
 							?>
@@ -86,7 +91,7 @@
 							</div><!-- 
 							 --><?php
 							 		$counter ++;
-							         if($counter == 3){break;}
+							         if($counter == 9){break;}
 							      endwhile;
 							   else: 
 							?>

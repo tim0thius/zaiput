@@ -6,7 +6,7 @@
 						<div class="block-about__content-inner">
 							<h2 class="block-about__headline">Zaiput in Space</h2>
 							<p class="block-about__summary">{{the_field('about_me_summary', 'option')}}</p>
-							<span class="block-about__readmore" ><a href="/zaiput-in-space/" class="block-about__readmore-link">Read the full article</a></span>
+							<span class="block-about__readmore" ><img class="block-about__link-icon" src="/wp-content/themes/blankslate/assets/img/icon_link.svg" alt=""><a href="/zaiput-in-space/" class="block-about__readmore-link">Read the full article</a></span>
 						</div>
 					</div>
 				</div><!-- 

@@ -28,8 +28,12 @@
 	font-family: $HEADLINE_FONT;
 	font-size: 22px;
 	font-weight: 100;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
+}
+.card-announcement-item__excerpt {
+	line-height: 1.2;
+	margin-bottom: 10px;
 }
 .card-announcement-item__label {
 	font-family: $BODY_FONT;
