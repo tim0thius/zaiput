@@ -26301,3 +26301,177 @@ Stack trace:
 [23-Aug-2018 13:59:40 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
 [23-Aug-2018 13:59:40 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
 [23-Aug-2018 13:59:40 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:00:32 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:00:32 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:02:33 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:02:33 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:04:34 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:04:34 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:04:38 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:04:38 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:06:35 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:06:35 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:08:37 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:08:37 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:10:35 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:10:35 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:10:41 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:10:41 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:10:42 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:10:43 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:10:43 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:10:47 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:10:47 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:10:47 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:10:47 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:10:47 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:10:50 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:10:50 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:10:54 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:10:54 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:11:42 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:11:42 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:11:42 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:11:42 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:11:42 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:11:44 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:11:44 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:11:44 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:11:46 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:11:46 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:11:46 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:11:47 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:11:47 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:11:47 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:11:47 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:11:51 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:11:51 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:11:52 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:11:54 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:11:54 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:11 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:11 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:14 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:14 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:18 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:18 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:22 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:22 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:48 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:48 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:53 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:53 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:54 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:54 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:55 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:55 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:58 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:58 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:58 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:12:59 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:59 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:12:59 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:12:59 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:00 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:13:04 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:04 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:04 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:13:11 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:11 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:12 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:13:15 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:15 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:15 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:15 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:15 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:15 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:16 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:13:19 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:19 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:20 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:13:52 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:52 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:52 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:13:57 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:57 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:57 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:13:57 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:57 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:57 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:13:59 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:14:04 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:04 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:06 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:14:18 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:18 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:18 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:18 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:22 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:26 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:26 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:39 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:39 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:42 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:42 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:42 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:42 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:42 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:42 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:42 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:42 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:45 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:45 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:14:56 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:14:56 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:15 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:15 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:15 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:15:18 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:18 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:18 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:18 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:18 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:18 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:19 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:15:21 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:21 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:21 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:21 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:22 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:15:22 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:15:26 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:26 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:26 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:26 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:26 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:26 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:26 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:15:29 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:29 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:30 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:15:47 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:47 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:47 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:47 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Undefined index: /css/app.css in /app/public/wp-content/themes/blankslate/functions/helpers.php on line 10
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLT already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 2
+[23-Aug-2018 14:15:53 UTC] PHP Notice:  Constant TMPLTD already defined in /app/public/wp-content/themes/blankslate/functions/styles.php on line 3
