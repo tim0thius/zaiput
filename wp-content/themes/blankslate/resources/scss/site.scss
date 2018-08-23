@@ -82,6 +82,21 @@ section > .grid__container {
 /* ================================= */
 
 .nf-form-content {
+    select, input:not([type="button"] ), textarea {
+        border-radius: 4px;
+        border: 2px solid #ddd;
+        color: $DARK_GREY;
+        font-size: 16px;
+        outline: none;
+        padding: 0 10px;
+    }
+    textarea {
+        padding-top: 10px;
+    }
+    select {
+        height: 40px !important;
+        background-color: #fff;
+    }
     input:not([type="button"] ) {
         height: 40px;
     }
@@ -107,7 +122,7 @@ section > .grid__container {
 .nf-form-fields-required {
     display: none;
 }
-.nf-form-layout {
+.block-product-tabs__content .nf-form-layout {
     @media screen and ( min-width: $LAP ) {
         width: 66.6%;
     } 
