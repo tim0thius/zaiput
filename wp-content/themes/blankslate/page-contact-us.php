@@ -18,10 +18,8 @@
 						<section class="block-page__content">
 						<?php
 							$formid = get_field('form_id');
-
+							echo do_shortcode( $formid );
 						?>
-
-						<?php echo do_shortcode( '[ninja_form id=$formid]' ); ?>
 					
 						</section>
 						</article>
