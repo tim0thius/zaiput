@@ -5,30 +5,59 @@
 	background-size: cover;
 	box-shadow: inset -10px 0px 10px rgba(0,0,0,.3);
 	color: #fff;
-	height: 200px;
-	padding: 30px 0;
+	padding: 60px 0;
 
 	.grid__container {
-		max-width: 900px;
+		// max-width: 900px;
 		width: 100%;
+	}
+
+	hr {
+		border: 0 solid;
+		border-bottom: 1px solid $LIGHT_RED;
+		margin: 30px 0;
+	}
+
+	.block-footer__column{
+		@media screen and ( min-width: $LAP ) {
+			border-right: 1px solid $LIGHT_RED;
+			height: 100%;
+			padding-right: 15px;
+		}
+		
+	}
+
+	.grid {
+		display: flex;
+	}
+}
+.block-footer__columns {
+	.grid__item:last-child {
+
+		.block-footer__column {
+			border-right: 0 solid;
+			padding-right: 0;
+		}
+		
 	}
 }
 .block-footer__menu {
 	& #menu-footer-menu {
-		@include flex(center, flex-start, row);
+		@include flex(flex-start, flex-start, column);
 
 		margin-bottom: 10px;
 
-		a {
-			border-right: 1px solid rgba(255,255,255,.5);
+		a, h3 {
+			// border-right: 1px solid rgba(255,255,255,.5);
 			color: #fff;
+			display: block;
 			font-size: 18px;
 			font-family: $BODY_FONT;
 			letter-spacing: .1em;
-			padding-right: 10px;
-			margin-right: 10px;
+			// padding-right: 10px;
+			margin-bottom: 10px;
 			text-decoration: none;
-			text-transform: lowercase;		
+			text-transform: uppercase;		
 		}
 		li {
 			&:last-child {
@@ -42,6 +71,17 @@
 		}
 	}
 }
+.block-footer__heading {
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	font-family: $BODY_FONT;
+	letter-spacing: .1em;
+	// padding-right: 10px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	text-transform: uppercase;	
+}
 .block-footer__branding {
 	text-align: right;
 }
@@ -49,7 +89,7 @@
 	max-width: 210px;
 }
 .block-footer__content {
-	border-left: 1px solid rgba(255,255,255,.5);
+	// border-left: 1px solid rgba(255,255,255,.5);
 	opacity: .8;
 	padding-left: 15px;
 }
@@ -58,4 +98,44 @@
 	font-size: 14px;
 	font-weight: 100;
 	letter-spacing: .1em;
+}
+.block-footer__contact {
+	color: #fff;
+
+	input, select, textarea {
+		border: 0 solid !important;
+	}
+	textarea {
+		height: 85px !important;
+	}
+	.nf-field-container {
+		margin-bottom: 10px;
+	}
+	input[type="button"] {
+        background-color: darken($RED, 10%);
+    }
+    .nf-error-msg {
+    	color: #fff;
+    }
+}
+.block-footer__logo-box {
+	display: flex;
+
+	a {
+		display: block;
+		width: 20%;
+	}
+	img {
+		margin-right: 5px;
+	}
+}
+.block-footer__partners-logos {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: flex-start;
+
+    img {
+    	margin-bottom: 5px;
+    }
 }
