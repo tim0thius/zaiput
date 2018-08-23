@@ -14,7 +14,7 @@
 			    <section class="block-footer__contact block-footer__column">
 			    	<h3 class="block-footer__heading">Contact Us</h3>
 					<?php
-						echo do_shortcode( '[ninja_form id=6]' );
+						echo do_shortcode( '[ninja_form id=5]' );
 					?>
 			    </section>				
 			</div><!-- 
