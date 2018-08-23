@@ -1,6 +1,7 @@
 .block-footer {
 	@include flex(center, center, column);
 	background-color: $RED;
+	background-color: #00335d;
 	background-position: center;
 	background-size: cover;
 	box-shadow: inset -10px 0px 10px rgba(0,0,0,.3);
@@ -15,12 +16,14 @@
 	hr {
 		border: 0 solid;
 		border-bottom: 1px solid $LIGHT_RED;
+		border-bottom: 1px solid #195485;
 		margin: 30px 0;
 	}
 
 	.block-footer__column{
 		@media screen and ( min-width: $LAP ) {
 			border-right: 1px solid $LIGHT_RED;
+			border-right: 1px solid #195485;
 			height: 100%;
 			padding-right: 15px;
 		}
@@ -113,6 +116,7 @@
 	}
 	input[type="button"] {
         background-color: darken($RED, 10%);
+        background-color: #195485;
     }
     .nf-error-msg {
     	color: #fff;
