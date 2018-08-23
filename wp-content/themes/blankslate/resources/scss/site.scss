@@ -76,3 +76,39 @@ section > .grid__container {
         display: none;
     }
 }
+
+/* ================================= */
+// Ninja Form styles
+/* ================================= */
+
+.nf-form-content {
+    input:not([type="button"] ) {
+        height: 40px;
+    }
+    input[type="checkbox"] {
+        height: auto;
+    }
+    input[type="button"] {
+        border: none;
+        cursor: pointer;
+        line-height: 1;
+    }
+    .list-checkbox-wrap {
+        li {
+            display: flex;
+            align-items: center;
+
+            label {
+                margin-left: 10px !important;
+            }
+        }
+    }
+}
+.nf-form-fields-required {
+    display: none;
+}
+.nf-form-layout {
+    @media screen and ( min-width: $LAP ) {
+        width: 66.6%;
+    } 
+}
