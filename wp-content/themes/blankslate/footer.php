@@ -15,7 +15,7 @@
 			    <section class="block-footer__contact block-footer__column">
 			    	<h3 class="block-footer__heading">Contact Us</h3>
 					<?php
-						echo do_shortcode( '[ninja_form id=5]' );
+						echo do_shortcode( '[ninja_form id=6]' );
 					?>
 			    </section>				
 			</div><!-- 
@@ -28,6 +28,15 @@
 						<a href="<?= the_field('linkedin_url', 'option') ?>" class="block-footer__social-icon"><img src="/wp-content/themes/blankslate/assets/img/icon_LI.svg" alt=""></a>
 						<a href="<?= the_field('googleplus_url', 'option') ?>" class="block-footer__social-icon"><img src="/wp-content/themes/blankslate/assets/img/icon_GP.svg" alt=""></a>
 			    	</div>
+			    	<div class="block-footer__newsletter-link">
+			    		<hr style="visibility: hidden;" >
+			    		<p>See our <a href="https://mailchi.mp/e8f58d97c8e1/zaiput-goes-to-the-iss-zaiputs-new-multistage-extraction-platform-and-more-1360469">most recent newsletter</a>.</p></div>
+			    	<div class="block-footer__newsletter-signup">
+			    		<div id="mc_embed_signup">
+							<form action="http://eepurl.com/zs4wf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate=""><br><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="component-button"><br>
+							</form>
+						</div>
+					</div>
 						
 			    </section>				
 			</div><!-- 

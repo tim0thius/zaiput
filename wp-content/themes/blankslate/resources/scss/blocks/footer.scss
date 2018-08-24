@@ -145,6 +145,11 @@
 	input[type="button"] {
         background-color: darken($RED, 10%);
         background-color: #195485;
+
+        &:hover {
+        	background-color: darken($RED, 5%);
+        	background-color: darken(#195485, 5%);
+        }
     }
     .nf-error-msg {
     	color: #fff;
@@ -208,5 +213,24 @@
 		section {
 			text-align: left;
 		}
+	}
+}
+.block-footer__newsletter-link {
+	a {
+		color: #fff;
+	}
+}
+.block-footer__newsletter-signup {
+	.component-button {
+		background-color: darken($RED, 10%);
+        background-color: #195485;
+        border: 0 solid;
+        cursor: pointer;
+        padding: 12px;
+
+        &:hover {
+        	background-color: darken($RED, 5%);
+        	background-color: darken(#195485, 5%);
+        }
 	}
 }
