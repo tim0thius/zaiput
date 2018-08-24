@@ -1,17 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-</style>
-<title>Asset 6</title>
-<g id="Layer_2_1_">
-	<g id="Layer_1-2">
-		<path class="st0" d="M0,0v32h32V0H0z M11.6,24H8.3V13.3h3.3V24z M9.9,11.9C8.9,11.9,8,11,8,9.9C8,8.9,8.9,8,9.9,8
-			c1.1,0,1.9,0.9,1.9,1.9c0,0,0,0,0,0C11.9,11,11,11.9,9.9,11.9C9.9,11.9,9.9,11.9,9.9,11.9z M24,24h-3.3v-5.2c0-1.2,0-2.8-1.7-2.8
-			s-2,1.4-2,2.7V24h-3.3V13.3h3.2v1.5h0c0.6-1.1,1.8-1.8,3.1-1.7c3.4,0,4,2.2,4,5.1V24z"/>
-	</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon_LI" class="cls-1" d="M43,61H98v55H43V61ZM63.952,97.934V82.166h-4.9V97.934h4.9ZM61.526,80a2.881,2.881,0,1,0-2-.844A2.738,2.738,0,0,0,61.526,80ZM82.3,97.934V89.285a10.666,10.666,0,0,0-1.055-5.379q-1.371-2.162-4.8-2.162a5.2,5.2,0,0,0-2.953.844,4.215,4.215,0,0,0-1.687,1.74H71.757V82.166H67.064V97.934h4.852v-7.8a5.887,5.887,0,0,1,.527-2.795,2.47,2.47,0,0,1,2.373-1.266,2.22,2.22,0,0,1,2.267,1.424,8.516,8.516,0,0,1,.317,2.742v7.7h4.9Z" transform="translate(-43 -61)"/>
 </svg>
