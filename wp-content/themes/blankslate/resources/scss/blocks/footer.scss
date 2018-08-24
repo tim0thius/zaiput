@@ -6,7 +6,7 @@
 	background-size: cover;
 	box-shadow: inset -10px 0px 10px rgba(0,0,0,.3);
 	color: #fff;
-	padding: 60px 0;
+	padding: 60px 30px;
 
 	.grid__container {
 		// max-width: 900px;
@@ -35,6 +35,12 @@
 	}
 }
 .block-footer__columns {
+	flex-direction: column;
+
+	@media screen and ( min-width: $LAP ) {
+		flex-direction: row;
+	}
+	
 	.grid__item:last-child {
 
 		.block-footer__column {
@@ -60,7 +66,7 @@
 			// padding-right: 10px;
 			margin-bottom: 10px;
 			text-decoration: none;
-			text-transform: uppercase;		
+			// text-transform: uppercase;		
 		}
 		li {
 			&:last-child {
@@ -84,9 +90,27 @@
 	margin-bottom: 30px;
 	text-decoration: none;
 	text-transform: uppercase;	
+
+	@media screen and ( max-width: $LAP ) {
+		border-top: 1px solid #195485;
+		margin-top: 30px;
+		padding-top: 30px;
+	}
+
+	.grid__item:first-child & {
+		margin-top: 0;
+		padding-top: 0;
+		border-top: 0 solid;
+	}
+	
 }
 .block-footer__branding {
 	text-align: right;
+
+	@media screen and ( max-width: $LAP ) {
+		margin-bottom: 30px;
+	}
+	
 }
 .block-footer__logo {
 	max-width: 210px;
@@ -104,6 +128,10 @@
 }
 .block-footer__contact {
 	color: #fff;
+
+	form {
+		max-width: 400px;
+	}
 
 	input, select, textarea {
 		border: 0 solid !important;
@@ -127,10 +155,16 @@
 
 	a {
 		display: block;
-		width: 20%;
+		padding-right: 2%;
+		max-width: 20%;
+		transition: opacity .3s;
+
+		&:hover {
+			opacity: .8;
+		}
 	}
 	img {
-		margin-right: 5px;
+		max-width: 100%;
 	}
 }
 .block-footer__partners-logos {
@@ -139,7 +173,40 @@
     width: auto;
     align-items: flex-start;
 
+    @media screen and ( min-width: $LAP ) {
+    	align-items: center;
+    }
+    
+
+    a {	
+    	transition: opacity .3s;
+
+    	&:hover {
+    		opacity: .8;
+    	}
+    }
+
     img {
     	margin-bottom: 5px;
     }
+}
+.block-footer__partners {
+	h3 {
+		text-align: left;
+
+		@media screen and ( min-width: $LAP ) {
+			text-align: center;
+		}
+		
+	}
+}
+.block-footer__closing {
+
+	@media screen and ( max-width: $LAP ) {
+		flex-direction: column-reverse;
+
+		section {
+			text-align: left;
+		}
+	}
 }
