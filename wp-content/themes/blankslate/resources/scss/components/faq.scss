@@ -1,0 +1,23 @@
+.component-faq__item {
+	margin-bottom: 0;
+	// transition: margin-bottom .5s;
+
+	&.state--open {
+		// margin-bottom: 0;
+	}
+}
+.component-faq__question {
+	cursor: pointer;
+}
+.component-faq__answer {
+	opacity: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition: all .6s;
+	transition-timing-function: ease-out;
+
+	.state--open & {
+		opacity: 1;
+		max-height: 1000px;
+	}
+}
