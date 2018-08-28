@@ -2,7 +2,7 @@
 
 <?php
 	$team_args = array(
-		'page_id' => 250
+		'page_id' => 349 // 250 for local
 	);
 	$team_page = new WP_Query($team_args);
 ?>
@@ -88,12 +88,7 @@
 
 
 <?php
-      endwhile;
-   else: 
-?>
-    Oops, there are no testimonials.
-<?php
-   endif;
+    endwhile; endif;
    wp_reset_postdata();
 ?>	
 

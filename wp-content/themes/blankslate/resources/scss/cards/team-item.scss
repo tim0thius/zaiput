@@ -40,7 +40,16 @@
 }
 
 #block-advisory-members {
-		h3 {
-			margin-top: 60px;
+	h3 {
+		margin-top: 60px;
+	}
+}
+#block-advisory-members, #block-management-members {
+	.card-team-item {
+		&:last-child {
+			hr {
+				display: none;
+			}
 		}
 	}
+}
