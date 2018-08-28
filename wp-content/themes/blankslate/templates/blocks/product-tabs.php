@@ -27,12 +27,12 @@
 							@endif
 							@if(get_field(specifications_content))
 							<li class="block-product-tabs__tab"><a data-tab-target="specifications" class="action--open-tab" >Specifications</a></li>
-							@endif
-							@if(get_field(ordering_info_content))
-							<li class="block-product-tabs__tab"><a data-tab-target="ordering" class="action--open-tab" >Ordering Information</a></li>
-							@endif
+							@endif					
 							@if(get_field(product_faq_content))
 							<li class="block-product-tabs__tab"><a data-tab-target="faq" class="action--open-tab" >FAQ</a></li>
+							@endif
+							@if(get_field(ordering_info_content))
+							<li class="block-product-tabs__tab block-product-tabs__tab--ordering-info"><a data-tab-target="ordering" class="action--open-tab" >Ordering Information</a></li>
 							@endif
 						</ul>
 					</div><!-- 
