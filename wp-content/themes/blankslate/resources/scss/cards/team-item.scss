@@ -1,0 +1,29 @@
+.card-team-item {  
+	display: flex;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 100%;
+}
+.card-team-item__details {
+	flex: 1;
+}
+.card-team-item__title {
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+.card-team-item__bio {
+	// font-family: $BODY_FONT;
+	// font-size: 21px;
+}
+.card-team-item__avatar {
+	flex: none;
+	padding-right: 30px;
+	width: 182px;
+
+	img {
+		border-radius: 100px;
+		max-width: 100%;
+		width: 100%;
+	}
+
+}
