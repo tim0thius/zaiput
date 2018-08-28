@@ -10,10 +10,7 @@
 			<div class="grid__item one-whole">
 				<div class="block-page__content">
 					<div class="block-page__content-inner">
-						<?php if( have_rows('team_members') ): ?>
-							<?php
-								$count = count( get_field( 'team_members' ) );
-							?>			
+						<?php if( have_rows('team_members') ): ?>		
 							<div class="block-team-members" id="block-management-members">
 								<h3>Management Team</h3>
 								<?php while( have_rows('team_members') ): the_row(); 		

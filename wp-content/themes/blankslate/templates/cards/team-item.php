@@ -5,9 +5,7 @@
 		<div class="card-team-item__details">
 			<h4 class="card-team-item__title"><?php echo $title; ?></h4>
 			<p class="card-team-item__bio"><?php echo $content; ?></p>
-			<?php if(get_row_index() < $count - 1) : ?>
-				<hr class="component__divider">
-			<?php endif; ?>
+			<hr class="component__divider">
 		</div>
 
 </div>
