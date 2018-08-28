@@ -1,8 +1,13 @@
 .card-team-item {  
 	display: flex;
-    margin-bottom: 30px;
+	flex-direction: column;
     text-align: left;
     width: 100%;
+
+    @media screen and ( min-width: $LAP ) {
+    	flex-direction: row;
+    }
+    
 }
 .card-team-item__details {
 	flex: 1;
@@ -12,13 +17,13 @@
 	margin-bottom: 30px;
 }
 .card-team-item__bio {
-	// font-family: $BODY_FONT;
-	// font-size: 21px;
+	max-width: 800px;
 }
 .card-team-item__avatar {
 	flex: none;
-	padding-right: 30px;
-	width: 182px;
+	margin-bottom: 15px;
+	// padding-right: 30px;
+	width: 120px;
 
 	img {
 		border-radius: 100px;
@@ -26,4 +31,16 @@
 		width: 100%;
 	}
 
+	@media screen and ( min-width: $LAP ) {
+    	padding-right: 30px;
+    	margin-bottom: 0;
+    	width: 182px;
+    }
+
 }
+
+#block-advisory-members {
+		h3 {
+			margin-top: 60px;
+		}
+	}
