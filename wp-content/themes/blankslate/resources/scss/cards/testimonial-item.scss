@@ -1,3 +1,4 @@
+//hp styles
 .card-testimonial-item{
 	font-size: 18px;
 	color: $DARK_GREY;
@@ -41,4 +42,43 @@
 	strong {
 		color: $RED;
 	}
+}
+
+
+// page styles
+.block-page--testimonials {
+	.card-testimonial-item {  
+		display: flex;
+	    margin-bottom: 30px;
+	    text-align: left;
+	    width: 100%;
+	}
+	.card-testimonial-item__details {
+		flex: 1;
+	}
+	.card-testimonial-item__avatar {
+		width: 70px;
+	}
+	.card-testimonial-item__name {
+		color: $BLACK;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.card-testimonial-item__content {
+		font-family: $BODY_FONT;
+		font-size: 18px;
+		line-height: 1.6;
+		margin-bottom: 30px;
+	}
+	.card-testimonial-item__category {
+		color: $RED;
+		flex: none;
+		font-size: 14px;
+		padding-right: 30px;
+		text-align: right;
+		width: 220px;
+	    display: block;
+	    font-weight: 400;
+	    line-height: 1.3;
+	}	
 }
