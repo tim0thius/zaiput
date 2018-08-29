@@ -24,7 +24,7 @@
 									<?php endif; ?>	
 								<?php endwhile; ?>									
 							</div>												
-							<div class="block-team-members" id="block-advisory-members">
+							<div class="block-team-members" id="block-scientific-advisory-members">
 								<h3>Scientific Advisory Board</h3>
 
 								<?php while( have_rows('team_members') ): the_row(); 
@@ -33,7 +33,21 @@
 									$image = get_sub_field('avatar');
 									$content = get_sub_field('bio');
 									?>
-									<?php if($category == 'advisory'): ?>
+									<?php if($category == 'bus-advisory'): ?>
+										@include( 'templates/cards/team-item')
+									<?php endif; ?>	
+								<?php endwhile; ?>									
+							</div>
+							<div class="block-team-members" id="block-business-advisory-members">
+								<h3>Business Advisory Board</h3>
+
+								<?php while( have_rows('team_members') ): the_row(); 
+									$category = get_sub_field('category');
+									$title = get_sub_field('title');
+									$image = get_sub_field('avatar');
+									$content = get_sub_field('bio');
+									?>
+									<?php if($category == 'sci-advisory'): ?>
 										@include( 'templates/cards/team-item')
 									<?php endif; ?>	
 								<?php endwhile; ?>									
