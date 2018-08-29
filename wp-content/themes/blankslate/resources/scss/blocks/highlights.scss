@@ -29,3 +29,12 @@
 	line-height: 26px;
 	margin-bottom: 30px;
 }
+.block-highlights__publications-logos {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+
+	img {
+		padding: 0 5px 5px 0;
+	}
+}

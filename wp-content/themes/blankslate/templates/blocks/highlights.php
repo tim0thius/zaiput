@@ -106,11 +106,11 @@
 				 			</div>
 				 			<div class="grid__item one-whole">
 				 				<div class="block-highlights__publications">
-				 					<p class="block-highlights__publications-message" >Our technology is used by The Top Pharmaceutical Companies Worldwide and has also been featured in 40+ publications, including:</p>
+				 					<p class="block-highlights__publications-message" >{{ the_field('publications_text', 'option') }}</p>
 				 					<div class="block-highlights__publications-logos">
 										<?php if( have_rows('publications_logos', 'option') ): ?>
 										    <?php while( have_rows('publications_logos', 'option') ): the_row(); ?>
-										        <img src="<?php the_sub_field('publication_logo'); ?>" class="block-highlights__publication_logo" />
+										        <a class="block-highlights__publication_link" href="<?php the_sub_field('publication_url'); ?>"><img src="<?php the_sub_field('publication_logo'); ?>" class="block-highlights__publication_logo" /></a>
 										    <?php endwhile; ?>
 										<?php endif; ?>
 				 					</div>			
