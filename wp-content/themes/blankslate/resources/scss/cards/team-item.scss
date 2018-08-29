@@ -39,12 +39,16 @@
 
 }
 
-#block-advisory-members {
-	h3 {
-		margin-top: 60px;
+.block-team-members {
+
+	&:not(:nth-child(1)){
+		h3 {
+			margin-top: 60px;
+		}	
 	}
+	
 }
-#block-advisory-members, #block-management-members {
+.block-team-members {
 	.card-team-item {
 		&:last-child {
 			hr {
