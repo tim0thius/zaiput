@@ -15,7 +15,7 @@
 				</div>
 			</div>	
 			<?php if($counter < $testimonials_count - 1) : ?>
-				<hr class="component__divider">
+				<hr class="component-divider">
 			<?php endif; ?>
 		</div>
 </div>
