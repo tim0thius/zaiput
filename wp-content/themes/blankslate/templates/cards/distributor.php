@@ -15,10 +15,20 @@ $fax = get_sub_field('fax');
 	</div>
 	<div class="card-distributor__body">
 		<span class="card-distributor__company"><?= $company ?></span>
+		<?php if( $contact): ?>
 		<span class="card-distributor__contact-name"><?= $contact ?></span>
-		<span class="card-distributor__email"><?= $email ?></span>
-		<span class="card-distributor__phone">Tel: <?= $phone ?></span>
-		<span class="card-distributor__mobile">Mobile: <?= $mobile ?></span>
-		<span class="card-distributor__fax">Fax: <?= $fax ?></span>
+		<?php endif; ?>
+			<?php if( $contact): ?>
+			<span class="card-distributor__email"><?= $email ?></span>
+		<?php endif; ?>
+			<?php if( $phone): ?>
+			<span class="card-distributor__phone">Tel: <?= $phone ?></span>
+		<?php endif; ?>
+			<?php if( $mobile): ?>
+			<span class="card-distributor__mobile">Mobile: <?= $mobile ?></span>
+		<?php endif; ?>
+			<?php if( $fax): ?>
+			<span class="card-distributor__fax">Fax: <?= $fax ?></span>
+		<?php endif; ?>
 	</div>
 </div>
