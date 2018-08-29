@@ -5,7 +5,7 @@
 		<div class="card-team-item__details">
 			<h4 class="card-team-item__title"><?php echo $title; ?></h4>
 			<p class="card-team-item__bio"><?php echo $content; ?></p>
-			<hr class="component__divider">
+			<hr class="component-divider">
 		</div>
 
 </div>
