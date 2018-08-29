@@ -33,7 +33,7 @@
 									$image = get_sub_field('avatar');
 									$content = get_sub_field('bio');
 									?>
-									<?php if($category == 'bus-advisory'): ?>
+									<?php if($category == 'sci-advisory'): ?>
 										@include( 'templates/cards/team-item')
 									<?php endif; ?>	
 								<?php endwhile; ?>									
@@ -47,7 +47,7 @@
 									$image = get_sub_field('avatar');
 									$content = get_sub_field('bio');
 									?>
-									<?php if($category == 'sci-advisory'): ?>
+									<?php if($category == 'bus-advisory'): ?>
 										@include( 'templates/cards/team-item')
 									<?php endif; ?>	
 								<?php endwhile; ?>									

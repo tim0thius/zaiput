@@ -46,17 +46,13 @@
 			<div class="grid__item one-whole">
 				<div class="block-page__content">
 					<div class="block-page__content-inner">
-
-<?php
-   if($team_page->have_posts()) : 
-   	$count = 0;
-      while($team_page->have_posts()) : 
-         $team_page->the_post();			    
-?>
-						<?php if( have_rows('team_members') ): ?>
-							<?php
-								$count = count( get_field( 'team_members' ) );
-							?>			
+						<?php
+						   if($team_page->have_posts()) : 
+						   	$count = 0;
+						      while($team_page->have_posts()) : 
+						         $team_page->the_post();			    
+						?>
+						<?php if( have_rows('team_members') ): ?>		
 							<div class="block-team-members" id="block-management-members">
 								<h3>Management Team</h3>
 								<?php while( have_rows('team_members') ): the_row(); 		
@@ -70,7 +66,7 @@
 									<?php endif; ?>	
 								<?php endwhile; ?>									
 							</div>												
-							<div class="block-team-members" id="block-advisory-members">
+							<div class="block-team-members" id="block-scientific-advisory-members">
 								<h3>Scientific Advisory Board</h3>
 
 								<?php while( have_rows('team_members') ): the_row(); 
@@ -79,19 +75,30 @@
 									$image = get_sub_field('avatar');
 									$content = get_sub_field('bio');
 									?>
-									<?php if($category == 'advisory'): ?>
+									<?php if($category == 'sci-advisory'): ?>
+										@include( 'templates/cards/team-item')
+									<?php endif; ?>	
+								<?php endwhile; ?>									
+							</div>
+							<div class="block-team-members" id="block-business-advisory-members">
+								<h3>Business Advisory Board</h3>
+
+								<?php while( have_rows('team_members') ): the_row(); 
+									$category = get_sub_field('category');
+									$title = get_sub_field('title');
+									$image = get_sub_field('avatar');
+									$content = get_sub_field('bio');
+									?>
+									<?php if($category == 'bus-advisory'): ?>
 										@include( 'templates/cards/team-item')
 									<?php endif; ?>	
 								<?php endwhile; ?>									
 							</div>
 						<?php endif; ?>
-
-
-<?php
-    endwhile; endif;
-   wp_reset_postdata();
-?>	
-
+						<?php
+						    endwhile; endif;
+						   wp_reset_postdata();
+						?>	
 					</div>
 				</div>
 			</div>

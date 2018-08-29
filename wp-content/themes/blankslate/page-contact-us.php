@@ -1,5 +1,12 @@
 <?php get_header(); ?>
 
+<?php
+	$distributors_args = array(
+		'page_id' => 139 // 248 for local
+	);
+	$distributors_page = new WP_Query($distributors_args);
+?>
+
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 @include( 'templates/components/subpage-header2' )
@@ -71,13 +78,39 @@
 		
 	</div>
 </section>
-<section id="" class="block-distributors">
+<section id="" class="block-page" role="main" >
 	<div class="grid__container">
 		<div class="grid">
-			<div class="grid__item one-whole desk--one-third">
-				@include( 'templates/cards/distributor')
+			<div class="grid__item one-whole">
+				<div class="block-page__content">
+					<div class="block-page__content-inner">
+						<?php
+						   if($distributors_page->have_posts()) : 
+						   	$count = 0;
+						      while($distributors_page->have_posts()) : 
+						         $distributors_page->the_post();			    
+						?>
+						<?php if( have_rows('distributors') ): ?>		
+							<div class="block-distributors">
+								<h3>Distributors</h3>
+								<div class="grid"><!-- 
+								 --><?php while( have_rows('distributors') ): the_row(); ?><!-- 
+									 --><div class="grid__item one-whole desk--one-third">
+										@include( 'templates/cards/distributor')
+									</div><!-- 
+								 --><?php endwhile; ?><!-- 	
+							 --></div>								
+							</div>												
+						<?php endif; ?>
+						<?php
+						    endwhile; endif;
+						   wp_reset_postdata();
+						?>	
+					</div>
+				</div>
 			</div>
 		</div>
+		
 	</div>
 </section>
 

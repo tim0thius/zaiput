@@ -1,0 +1,54 @@
+.block-distributors {
+	> .grid {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: stretch;
+
+		> .grid__item {
+			margin-bottom: 30px;
+		}
+
+		@media screen and ( min-width: $DESK ) {
+			flex-direction: row;
+		}
+		
+	}
+
+}
+.card-distributor {
+	box-shadow: 2px 3px 5px rgba(0,0,0,.1);
+	height: 100%;	
+
+	&__header {
+		background-color: $OFF_WHITE;
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		padding: 15px 20px;
+		font-size: 30px;
+		color: $BLACK;
+		font-weight: 500;
+	}
+	&__body {
+		padding: 30px 20px;
+
+		> span {
+			font-size: 20px;
+			display: block;
+			margin-bottom: 15px;
+		}
+	}
+	& &__company {
+		color: $BLACK;
+		font-size: 24px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+	&__email {
+		font-weight: 500;
+	}
+	&__flag {
+		border: 1px solid #ddd;
+	}
+}
