@@ -26,6 +26,16 @@
 								<?php
 									$backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
 									$placeholderBackgroundImg = get_field('placeholder_image', 'option');
+									$link = get_the_permalink();
+									$target = '_self';
+
+									if(get_field('link_override')){
+										$link = get_field('link_override');
+									}
+
+									if(get_field('new_tab')){
+										$target = '_blank';
+									}
 
 									if(!$backgroundImg){
 										$backgroundImg[0] = $placeholderBackgroundImg;
@@ -38,7 +48,7 @@
 								    <div class="card-announcement-item__details">
 								    	<h2 class="card-announcement-item__title">{{the_title()}}</h2>
 								    	<div class="card-announcement-item__excerpt">{{the_excerpt()}}</div>
-								    	<a class="card-announcement-item__link" href="{{ the_permalink()}}">read more</a>
+								    	<a target="<?= $target ?>" class="card-announcement-item__link" href="<?= $link ?>">read more</a>
 								    </div>
 								</div>
 								<?php if($counter < $announcements_count - 1) : ?>
@@ -110,7 +120,13 @@
 				 					<div class="block-highlights__publications-logos">
 										<?php if( have_rows('publications_logos', 'option') ): ?>
 										    <?php while( have_rows('publications_logos', 'option') ): the_row(); ?>
-										        <a class="block-highlights__publication_link" href="<?php the_sub_field('publication_url'); ?>"><img src="<?php the_sub_field('publication_logo'); ?>" class="block-highlights__publication_logo" /></a>
+										    	<?php if(get_sub_field('publication_url')): ?>
+										    		<a class="block-highlights__publication_link" href="<?php the_sub_field('publication_url'); ?>">
+										    	<?php endif; ?>
+										    		<img src="<?php the_sub_field('publication_logo'); ?>" class="block-highlights__publication_logo" />
+										    	<?php if(get_sub_field('publication_url')): ?>
+										    		</a>
+										    	<?php endif; ?>
 										    <?php endwhile; ?>
 										<?php endif; ?>
 				 					</div>			
