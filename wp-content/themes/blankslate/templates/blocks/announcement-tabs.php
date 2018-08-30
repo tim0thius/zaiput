@@ -2,14 +2,18 @@
 	$news_args = array(
 		'post_type' => 'announcement',
 		'meta_key'		=> 'announcement_type',
-		'meta_value'	=> 'news'
+		'meta_value'	=> 'news',
+		'orderby' => 'publish_date',
+    	'order' => 'DESC'
 	);
 	$news_posts = new WP_Query($news_args);
 
 	$event_args = array(
 		'post_type' => 'announcement',
 		'meta_key'		=> 'announcement_type',
-		'meta_value'	=> 'event'
+		'meta_value'	=> 'event',
+		'orderby' => 'publish_date',
+    	'order' => 'DESC'
 	);
 	$event_posts = new WP_Query($event_args);
 ?>

@@ -1,5 +1,9 @@
 <?php
-	$announcement_args = array('post_type' => 'announcement');
+	$announcement_args = array(
+		'post_type' => 'announcement',
+		'orderby' => 'publish_date',
+    	'order' => 'DESC'
+	);
 	$announcement_posts = new WP_Query($announcement_args);
 
 	$testimonial_args = array('post_type' => 'testimonial');
@@ -64,9 +68,10 @@
 							    There are no announcements. Please check back later.
 							<?php
 							   endif;
+							    wp_reset_postdata();
 							?>
 					</div>
-					<a href="" class="component-button component-button--more-news-and-events">more news & events</a>
+					<a href="<?php the_field('more_announcements_link', 'option') ?>" class="component-button component-button--more-news-and-events">more news & events</a>
 				</div><!-- 
 				 --><div class="grid__item one-half portable--one-whole">
 				 		<div class="grid">
@@ -109,6 +114,7 @@
 							    Oops, there are no testimonials.
 							<?php
 							   endif;
+							    wp_reset_postdata();
 							?>	
 						</div>	
 						<div class="grid">
