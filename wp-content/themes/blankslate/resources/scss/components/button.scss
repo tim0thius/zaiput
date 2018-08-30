@@ -21,6 +21,17 @@
     }
 }
 
+.component-button--more-news-and-events {
+	margin: 60px auto 0;
+    max-width: 54px;
+    background-color: #333;
+    padding: 10px 0;
+    font-size: 16px;
+
+    &:hover {
+    	background-color: $DARK_GREY;
+    }
+}
 .component-button--close {
 	color: #ddd;
 	cursor: pointer;

@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
 		var targetId = $(this).attr('data-tab-target');
 		$(this).addClass('active').parent().siblings().children().removeClass('active');
 
-		$('.block-product-tabs__content[id="'+ targetId +'"]').addClass('active').siblings().removeClass('active');
+		$('.block-vertical-tabs__content[id="'+ targetId +'"]').addClass('active').siblings().removeClass('active');
 		console.log(targetId);
 	});
 
