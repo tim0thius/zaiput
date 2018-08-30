@@ -66,6 +66,7 @@
 							   endif;
 							?>
 					</div>
+					<a href="" class="component-button component-button--more-news-and-events">more news & events</a>
 				</div><!-- 
 				 --><div class="grid__item one-half portable--one-whole">
 				 		<div class="grid">
