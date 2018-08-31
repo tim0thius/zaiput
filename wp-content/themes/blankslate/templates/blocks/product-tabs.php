@@ -2,7 +2,7 @@
 	<div class="grid__container">
 			<div class="" >
 				<div class="grid">
-					<div class="grid__item one-quarter">
+					<div class="grid__item one-quarter palm--one-whole">
 						<ul class="block-vertical-tabs__tab-container">
 							@if(get_field(description_content))
 							<li class="block-vertical-tabs__tab"><a data-tab-target="description" class="action--open-tab active" >Description</a></li>
@@ -36,7 +36,7 @@
 							@endif
 						</ul>
 					</div><!-- 
-					 --><div class="grid__item three-quarters">	
+					 --><div class="grid__item three-quarters palm--one-whole">	
 					 <div class="block-vertical-tabs__container">
 					 	<div class="block-vertical-tabs__content active" id="description" >
 					 		<!-- Description -->
