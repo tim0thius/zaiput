@@ -113,6 +113,10 @@
 		@media screen and ( min-width: $LAP ) {
 			margin-top: -50%;
 		}
+		@media screen and ( max-width: $PALM ) {
+				margin-top: -150px;
+    			max-width: 80%;
+			}
 	}
 	.block-hero__content {
 		padding-top: 30px;
@@ -149,6 +153,13 @@
 	}
 
 	.product-right {
+		> div > .grid {
+
+			@media screen and ( max-width: $PALM ) {
+				display: flex;
+				flex-direction: column-reverse;
+			}
+		}
 		.block-hero__isolated-image {
 			margin-top: 10px;		
 			position: relative;
@@ -159,6 +170,12 @@
 				margin-top: -10%;
 				max-width: 600px;
 				right: 275px;
+			}
+
+			@media screen and ( max-width: $PALM ) {
+				margin-top: -150px;
+    			max-width: 80%;
+    			position: static;
 			}
 
 		}
@@ -180,7 +197,11 @@
 		margin-top: 50px !important;
 
 		@media screen and ( min-width: $LAP ) {
-				margin-top: -25% !important;
-			}
+			margin-top: -25% !important;
+		}
+		@media screen and ( max-width: $PALM ) {
+			margin-top: -150px !important;
+			max-width: 80%;
+		}
 	}
 }

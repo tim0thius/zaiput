@@ -12,10 +12,10 @@
 			<div class="" >
 				<div class="grid">
 					<?php if(!get_field('product_right')): ?>
-						<div class="grid__item one-third">
+						<div class="grid__item one-third palm--one-whole">
 							<img class="block-hero__isolated-image" src="{{the_field('isolated_image')}}" alt="">
 						</div><!-- 
-						 --><div class="grid__item two-thirds">	
+						 --><div class="grid__item two-thirds palm--one-whole">	
 						 <div class="block-hero__content">
 						 	<h1 class="block-hero__heading">
 						 		<?php the_title(); ?>
@@ -26,7 +26,7 @@
 						 </div>
 						</div>
 					<?php else : ?>
-						<div class="grid__item two-thirds">	
+						<div class="grid__item two-thirds palm--one-whole">	
 						 <div class="block-hero__content">
 						 	<h1 class="block-hero__heading">
 						 		<?php the_title(); ?>
@@ -36,7 +36,7 @@
 						 	</div>						
 						 </div>
 						</div><!-- 
-						 --><div class="grid__item one-third">
+						 --><div class="grid__item one-third palm--one-whole">
 							<img class="block-hero__isolated-image" src="{{the_field('isolated_image')}}" alt="">
 						</div> 	
 					<?php endif; ?>
