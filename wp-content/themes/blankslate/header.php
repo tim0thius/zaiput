@@ -17,7 +17,7 @@
                     <div class="block-header--site-title">
                         <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?>
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home">                
-                            <img class="block-header__logo" src="/wp-content/themes/blankslate/assets/img/logo.png" alt="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>">
+                            <img class="block-header__logo" src="<?php the_field('header_logo', 'option') ?>" alt="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>">
                         </a>
                         <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?>
                     </div>
@@ -26,7 +26,7 @@
                             <?php bloginfo( 'description' ); ?>
                         </div>
                     <?php endif; ?>
-                    <a href="/contact-us" class="component-button block-header__cta block-header__cta--desktop"><span>contact us</span></a>
+                    <a href="<?php the_field('cta_link', 'option') ?>" class="component-button block-header__cta block-header__cta--desktop"><span><?php the_field('cta_text', 'option') ?></span></a>
                 </section>
                 
                 <nav class="block-header--menu" role="navigation">
@@ -34,7 +34,7 @@
             		<?php //get_search_form(); ?>
             		</div> -->
                     <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-                    <a href="/contact-us" class="component-button block-header__cta block-header__cta--mobile"><span>contact us</span></a>
+                    <a href="<?php the_field('cta_link', 'option') ?>" class="component-button block-header__cta block-header__cta--mobile"><span><?php the_field('cta_text', 'option') ?></span></a>
                 </nav>
                 <a href="" class="block-header__menu-toggle action--toggle-menu">
                     <span class="block-header__menu-open"><img src="/wp-content/themes/blankslate/assets/img/menu.svg" alt=""></span>

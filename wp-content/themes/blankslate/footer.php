@@ -13,9 +13,10 @@
 			</div><!-- 
 			 --><div class="grid__item one-quarter portable--one-whole">
 			    <section class="block-footer__contact block-footer__column">
-			    	<h3 class="block-footer__heading">Contact Us</h3>
+			    	<h3 class="block-footer__heading"><?php the_field('form_title', 'option') ?></h3>
 					<?php
-						echo do_shortcode( '[ninja_form id=6]' );
+						$form_shortcode = get_field('form_shortcode', 'option');
+						echo do_shortcode( $form_shortcode );
 					?>
 			    </section>				
 			</div><!-- 
@@ -66,7 +67,7 @@
 			</div><!-- 
 			 --><div class="grid__item one-half palm--one-whole">
 			 	<section class="block-footer__branding">
-		            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><img class="block-footer__logo" src="/wp-content/themes/blankslate/assets/img/logo_white.png" alt="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>"></a>
+		            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><img class="block-footer__logo" src="<?php the_field('footer_logo', 'option') ?>" alt="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>"></a>
 			    </section>
 			    			
 			</div>
