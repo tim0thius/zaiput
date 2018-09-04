@@ -22,13 +22,13 @@
 		<h1 class="block-page__headline">News and Events</h1>
 		<div class="block-vertical-tabs" >
 			<div class="grid">
-				<div class="grid__item one-quarter">
+				<div class="grid__item one-quarter palm--one-whole">
 					<ul class="block-vertical-tabs__tab-container">
 						<li class="block-vertical-tabs__tab"><a data-tab-target="news" class="action--open-tab active" >Zaiput News</a></li>
 						<li class="block-vertical-tabs__tab"><a data-tab-target="events" class="action--open-tab" >Upcoming Events</a></li>							
 					</ul>
 				</div><!-- 
-				 --><div class="grid__item three-quarters">	
+				 --><div class="grid__item three-quarters palm--one-whole">	
 				 <div class="block-vertical-tabs__container">
 				 	<div class="block-vertical-tabs__content active" id="news" >
 				 		<!-- News -->

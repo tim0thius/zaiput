@@ -9,7 +9,7 @@ $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 
 
 		<div class="grid__container">
 			<div class="block-hero__content" >
-				<h2 class="block-hero__headline"><span>&nbsp;Separation &&nbsp;&nbsp;<br/>&nbsp;&nbsp;Extraction&nbsp;&nbsp;<br/>&nbsp;&nbsp;Re-Invented&nbsp;</span></h2>
+				<h2 class="block-hero__headline"><span><?php the_field('hero_headline'); ?></span></h2>
 			</div>
 		</div>
 
