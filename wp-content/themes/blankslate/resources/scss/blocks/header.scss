@@ -5,7 +5,7 @@
 
 	@media screen and ( min-width: $LAP ) {
 		flex-direction: column;
-		height: 200px;
+		height: 180px;
 	}	
 }
 .block-header__cta {
@@ -57,7 +57,7 @@
 
 	#menu-menu-1 {
 		@include flex(center, center, row);
-		min-height: 60px;
+		min-height: 36px;
 	}
 
 	.sub-menu {
