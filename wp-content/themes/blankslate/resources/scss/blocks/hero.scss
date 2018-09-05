@@ -10,7 +10,9 @@
 		position: relative;
 
 		@media screen and ( min-width: $PALM ) {
-			// height: auto;
+			background-image: none;
+			overflow: hidden;
+			max-width: 1300px;
 		}
 		@media screen and ( min-width: $LAP ) {
 			// height: 800px;
@@ -29,6 +31,8 @@
 
 	@media screen and ( min-width: $PALM ) {
 		visibility: visible;
+		margin-top: -32px;
+    	margin-bottom: -75px;
 	}
 
 }
