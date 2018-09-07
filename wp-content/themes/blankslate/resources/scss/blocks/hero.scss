@@ -7,23 +7,25 @@
 	.grid__super-container {
 		padding: 60px 0;
 		background-position: center 25px;
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: auto 440px;
+		background-size: auto;
 		transition: padding .3s;
 
 		@media screen and ( min-width: $PALM ) {
-			background-size: auto 110vw;
+			// background-size: auto 110vw;
 			max-width: 1800px;
 			width: 100%;
 		}
 
 		@media screen and ( min-width: $LAP  ) {
-			background-size: auto 340px;
-			background-position-x: -10%;
+			// background-size: auto 340px;
+			background-position: -260px center;
 		}
 
 		@media screen and ( min-width: $LAP ) and ( min-height: 800px  ) {
-			background-size: auto 440px;
+			// background-size: auto 440px;
 			padding: 120px 0;
 		}
 
@@ -32,12 +34,17 @@
 		}
 
 		@media screen and ( max-height: 600px  ) {
-			background-size: auto 340px;
+			// background-size: auto 340px;
 			padding: 15px 0;
 		}
 
-		@media screen and ( min-width: $DESK ) {
+		@media screen and ( min-width: 1800px ) {
 			background-position: left center;
+			max-width: 2000px;
+		}
+
+		@media screen and ( max-width: $PALM ) {
+			background-image: none !important;
 		}
 	}
 	.grid__super-container-wrap {
@@ -50,8 +57,8 @@
 		max-width: none;
 	
 		
-		@media screen and ( min-width: $PALM ) {
-			// height: 800px;
+		@media screen and ( max-width: $PALM ) {
+			background-position: center right;
 		}
 
 		.grid {
@@ -157,6 +164,8 @@
 
 
 #block-hero--product-page {
+	background-color: transparent;
+	background-image: none;
 	overflow: hidden;
 
 	.grid__super-container {
@@ -210,6 +219,7 @@
 		font-size: 24px;
 		font-weight: 500;
 		line-height: 36px;
+		text-align: left;
 
 		ul {
 			font-weight: 100;
