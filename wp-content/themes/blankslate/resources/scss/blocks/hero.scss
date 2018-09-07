@@ -1,73 +1,117 @@
 .block-hero {
-	.grid__super-container {
-		@include flex(center, flex-start, row);
+	background-color: #303e85;
+	background-image: -webkit-linear-gradient(left, #303e85, #1f5385);
+	background-image: -o-linear-gradient(left, #303e85, #1f5385);
+	background-image: linear-gradient(to right, #303e85, #1f5385);
 
-	    // padding-bottom: 18%;
+	.grid__super-container {
+		padding: 60px 0;
+		background-position: center 25px;
+		background-repeat: no-repeat;
+		background-size: auto 440px;
+
+		@media screen and ( min-width: $PALM ) {
+			background-size: auto 110vw;
+			max-width: 1800px;
+			width: 100%;
+		}
+
+		@media screen and ( min-width: $LAP ) {
+			background-size: auto 440px;
+			background-position-x: -10%;
+			padding: 120px 0;
+		}
+
+		@media screen and ( min-width: $DESK ) {
+			background-position: left center;
+		}
+	}
+	.grid__super-container-wrap {
+		@include flex(center, flex-start, row);
+	
 	    background-size: cover;
 	    background-repeat: no-repeat;
 	    background-position: center;
-		// height: 250px;
 		position: relative;
-
+		max-width: none;
+	
+		
 		@media screen and ( min-width: $PALM ) {
-			background-image: none;
-			overflow: hidden;
-			max-width: 1300px;
-		}
-		@media screen and ( min-width: $LAP ) {
 			// height: 800px;
+		}
+
+		.grid {
+			width: 100%;
+
+			@media screen and ( min-width: $LAP ) {
+				display: flex;
+			}
+			
 		}
 		
 	}
 	.grid__container {
 	    @include flex(center, flex-start, row);
+
 	    width: 100%;
+	}
+}
+.block-hero__video {
+	// padding-bottom: 56.6%;
+	padding: 20px;
+	position: relative;
+
+	iframe, video {
+		box-shadow: 2px 2px 12px rgba(0,0,0,.2);
+		height: 100%;
+		// position: absolute;
 	}
 }
 .block-hero__bg-video {
 	height: auto;
-	visibility: hidden;
+	// visibility: hidden;
 	width: 100%;
 
 	@media screen and ( min-width: $PALM ) {
 		visibility: visible;
-		margin-top: -32px;
-    	margin-bottom: -75px;
 	}
 
 }
 .block-hero__content {
-	display: flex;
 	align-items: center;
-	position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
+	display: flex;
+	justify-content: center;
     min-height: 100%;
+    min-width: 100%; 
+    text-align: center;
 }
 .block-hero__headline {
-	margin-left: 30px;
+	
+	// margin-top: -20px;
 	// padding: 75px 0;
 
 	span {
-		background-color: rgba(255,255,255,.5);
-		color: $RED;
-		font-size: 22px;
-		letter-spacing: .3em;
-		line-height: 60px;
-		padding: 10px 30px;
+		color: #fff;
+		display: block;
+		font-size: 26px;
+		letter-spacing: .5em;
+		line-height: 44px;
+		text-align: center;
+		text-shadow: 11px 17px 9px rgba(0,0,0,.2);
 		text-transform: uppercase;
 
 		@media screen and ( min-width: $PALM ) {
 			font-size: 32px;
 			line-height: 80px;
-			padding: 12px 30px;
 		}
 
 		@media screen and ( min-width: $LAP ) {
+			text-align: left;
+		}
+
+		@media screen and ( min-width: $DESK ) {
 			font-size: 42px;
-			line-height: 120px;
-			padding: 15px 30px;
+			line-height: 84px;
 		}
 		
 	}
