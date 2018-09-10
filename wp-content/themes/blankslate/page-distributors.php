@@ -10,6 +10,21 @@
 			<div class="grid__item one-whole">
 				<div class="block-page__content">
 					<div class="block-page__content-inner">
+
+						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+						<section class="block-page__content">
+						<?php the_content(); ?>
+						</section>
+						</article>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="grid">
+			<div class="grid__item one-whole">
+				<div class="block-page__content">
+					<div class="block-page__content-inner">
 						<?php if( have_rows('distributors') ): ?>		
 							<div class="block-distributors">
 								<h3>Distributors</h3>
