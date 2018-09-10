@@ -36,7 +36,7 @@
 .block-header--menu {
 
 	@media screen and ( max-width: $LAP - 1 ) {
-		@include flex(center, center, row);
+		@include flex(flex-start, flex-start, column);
 	
 		display: flex;
 		left: 0;
@@ -50,13 +50,10 @@
 	    z-index: -1;
 
 	    &.state--open {
+	    	flex-direction: column;
 	    	opacity: 1;
-	    	z-index: 1;
 	    	width: 100%;
-
-	    	@media screen and ( max-width: $LAP ) {
-	    		flex-direction: column;
-	    	}
+	    	z-index: 1;
 	    	
 	    }
 	}
@@ -84,12 +81,15 @@
 
 	    @media screen and ( max-width: $LAP ) {
 	    	background-color: transparent;
-	    	border-top: 1px solid #ddd;
-	    	border-bottom: 1px solid #ddd;
 	    	opacity: 1;
 	    	padding: 0;
 	    	position: static;
 	    	width: 100%;
+
+	    	li {
+	    		list-style-type: circle;
+	    		margin-left: 10px;
+	    	}
 
 	    	a {
 	    		font-size: 18px !important;
@@ -134,9 +134,9 @@
 
 		@media screen and ( max-width: $LAP - 1 ) {
 			display: block;
-			font-size: 24px;
-			margin: 20px 0;
-			text-align: center;
+			font-size: 18px;
+			margin: 15px 0;
+			text-align: left;
 		}
 	}
 }
