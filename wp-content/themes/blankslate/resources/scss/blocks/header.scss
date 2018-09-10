@@ -56,6 +56,12 @@
 	    	z-index: 1;
 	    	
 	    }
+
+	    .menu-menu-1-container {
+	    	height: 100vh;
+	    	overflow-y: scroll; 
+	    	padding-bottom: 30px;
+	    }
 	}
 
 	#menu-menu-1 {
@@ -88,11 +94,11 @@
 
 	    	li {
 	    		list-style-type: circle;
-	    		margin-left: 10px;
+	    		margin-left: 20px;
 	    	}
 
 	    	a {
-	    		font-size: 18px !important;
+	    		font-size: 16px !important;
 	    	}
 	    }
 	    
@@ -134,8 +140,8 @@
 
 		@media screen and ( max-width: $LAP - 1 ) {
 			display: block;
-			font-size: 18px;
-			margin: 15px 0;
+			font-size: 16px;
+			margin: 10px 0;
 			text-align: left;
 		}
 	}
@@ -194,3 +200,4 @@
 		display: block;
 	}
 }
+

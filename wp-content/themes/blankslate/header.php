@@ -34,7 +34,7 @@
             		<?php //get_search_form(); ?>
             		</div> -->
                     <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-                    <a href="<?php the_field('cta_link', 'option') ?>" class="component-button block-header__cta block-header__cta--mobile"><span><?php the_field('cta_text', 'option') ?></span></a>
+                    
                 </nav>
                 <a href="" class="block-header__menu-toggle action--toggle-menu">
                     <span class="block-header__menu-open"><img src="/wp-content/themes/blankslate/assets/img/menu.svg" alt=""></span>
