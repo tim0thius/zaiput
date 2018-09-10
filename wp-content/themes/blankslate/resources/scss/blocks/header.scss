@@ -151,7 +151,6 @@
 	max-width: 100%;
 
 	@media screen and ( max-width: $LAP - 1 ) {
-		max-width: 80%;
 		margin: 10px 0 10px 10px;
 	}	
 }
@@ -159,6 +158,10 @@
 	a {
 		display: block;
 		text-align: left;
+
+		@media screen and ( max-width: $LAP - 1 ) {
+			max-width: 80%;
+		}
 
 	}
 }
