@@ -1,4 +1,4 @@
-.block-hero {
+.block-hero:not(#block-hero--product-page) {
 	background-color: #303e85;
 	background-image: -webkit-linear-gradient(left, #303e85, #1f5385);
 	background-image: -o-linear-gradient(left, #303e85, #1f5385);
