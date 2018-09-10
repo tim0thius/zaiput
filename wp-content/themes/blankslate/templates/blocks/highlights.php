@@ -73,7 +73,7 @@
 							    wp_reset_postdata();
 							?>
 					</div>
-					<a href="<?php the_field('more_announcements_link', 'option') ?>" class="component-button component-button--more-news-and-events">more news & events</a>
+					<a href="<?php the_field('more_announcements_link', 'option') ?>" class="component-button component-button--dark">more news & events</a>
 				</div><!-- 
 				 --><div class="grid__item one-half portable--one-whole">
 				 		<div class="grid">
@@ -121,6 +121,7 @@
 							    wp_reset_postdata();
 							?>	
 						</div>	
+						<a href="<?php the_field('testimonials_link', 'option') ?>" class="component-button component-button--dark">more testimonials</a>		
 						<div class="grid">
 				 			<div class="grid__item one-whole">
 				 				<div class="block-highlights__divider"></div>
@@ -143,7 +144,7 @@
 				 					</div>			
 				 				</div>
 				 			</div>
-				 		</div>			
+				 		</div>	
 				</div>							
 			</div>
 		</div>
