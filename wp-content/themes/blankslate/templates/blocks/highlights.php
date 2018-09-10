@@ -24,7 +24,8 @@
 							   	$counter = 0;
 							   	$announcements_count = $announcement_posts->found_posts;
 							      while($announcement_posts->have_posts()) : 
-							         $announcement_posts->the_post();			    
+							         $announcement_posts->the_post();	
+							         if(get_field('homepage_feature')):		    
 							?><!-- 
 							 --><div class="grid__item one-whole">
 								<?php
@@ -62,6 +63,7 @@
 							 --><?php
 							 		$counter ++;
 							         if($counter == 9){break;}
+							     endif;
 							      endwhile;
 							   else: 
 							?>
@@ -86,7 +88,8 @@
 							   	$counter = 0;
 							   	$testimonials_count = $testimonial_posts->found_posts;
 							      while($testimonial_posts->have_posts()) : 
-							         $testimonial_posts->the_post();			    
+							         $testimonial_posts->the_post();
+							         if(get_field('homepage_feature')):				    
 							?><!-- 
 							 --><div class="block-highlights__testimonials-slide">
 								<div class="card-testimonial-item">
@@ -108,6 +111,7 @@
 							 --><?php
 							 		$counter ++;
 							         if($counter == 9){break;}
+							     endif;
 							      endwhile;
 							   else: 
 							?>
