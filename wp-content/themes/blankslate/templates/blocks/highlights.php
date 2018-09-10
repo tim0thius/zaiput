@@ -24,7 +24,8 @@
 							   	$counter = 0;
 							   	$announcements_count = $announcement_posts->found_posts;
 							      while($announcement_posts->have_posts()) : 
-							         $announcement_posts->the_post();			    
+							         $announcement_posts->the_post();	
+							         if(get_field('homepage_feature')):		    
 							?><!-- 
 							 --><div class="grid__item one-whole">
 								<?php
@@ -62,6 +63,7 @@
 							 --><?php
 							 		$counter ++;
 							         if($counter == 9){break;}
+							     endif;
 							      endwhile;
 							   else: 
 							?>
@@ -71,7 +73,7 @@
 							    wp_reset_postdata();
 							?>
 					</div>
-					<a href="<?php the_field('more_announcements_link', 'option') ?>" class="component-button component-button--more-news-and-events">more news & events</a>
+					<a href="<?php the_field('more_announcements_link', 'option') ?>" class="component-button component-button--dark">more news & events</a>
 				</div><!-- 
 				 --><div class="grid__item one-half portable--one-whole">
 				 		<div class="grid">
@@ -86,7 +88,8 @@
 							   	$counter = 0;
 							   	$testimonials_count = $testimonial_posts->found_posts;
 							      while($testimonial_posts->have_posts()) : 
-							         $testimonial_posts->the_post();			    
+							         $testimonial_posts->the_post();
+							         if(get_field('homepage_feature')):				    
 							?><!-- 
 							 --><div class="block-highlights__testimonials-slide">
 								<div class="card-testimonial-item">
@@ -108,6 +111,7 @@
 							 --><?php
 							 		$counter ++;
 							         if($counter == 9){break;}
+							     endif;
 							      endwhile;
 							   else: 
 							?>
@@ -117,6 +121,7 @@
 							    wp_reset_postdata();
 							?>	
 						</div>	
+						<a href="<?php the_field('testimonials_link', 'option') ?>" class="component-button component-button--dark">more testimonials</a>		
 						<div class="grid">
 				 			<div class="grid__item one-whole">
 				 				<div class="block-highlights__divider"></div>
@@ -139,7 +144,7 @@
 				 					</div>			
 				 				</div>
 				 			</div>
-				 		</div>			
+				 		</div>	
 				</div>							
 			</div>
 		</div>
