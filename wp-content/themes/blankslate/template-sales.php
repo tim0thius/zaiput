@@ -19,9 +19,12 @@
 					<div class="block-page__content-inner">
 
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						<section class="block-page__content">
-						<?php the_content(); ?>
-						</section>
+							<header class="header">
+								<h1 class="block-page__headline"><?php the_title(); ?></h1>
+							</header>
+							<section class="block-page__content">
+								<?php the_content(); ?>
+							</section>
 						</article>
 
 					</div>
