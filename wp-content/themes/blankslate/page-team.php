@@ -33,21 +33,10 @@
 									$image = get_sub_field('avatar');
 									$content = get_sub_field('bio');
 									?>
-									<?php if($category == 'sci-advisory'): ?>
+									<?php if($category == 'advisory'): ?>
 										@include( 'templates/cards/team-item')
 									<?php endif; ?>	
-								<?php endwhile; ?>														
-
-								<?php while( have_rows('team_members') ): the_row(); 
-									$category = get_sub_field('category');
-									$title = get_sub_field('title');
-									$image = get_sub_field('avatar');
-									$content = get_sub_field('bio');
-									?>
-									<?php if($category == 'bus-advisory'): ?>
-										@include( 'templates/cards/team-item')
-									<?php endif; ?>	
-								<?php endwhile; ?>									
+								<?php endwhile; ?>																					
 							</div>
 						<?php endif; ?>
 					</div>
