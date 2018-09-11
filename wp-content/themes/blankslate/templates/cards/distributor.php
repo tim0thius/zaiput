@@ -18,7 +18,7 @@ $fax = get_sub_field('fax');
 		<?php if( $contact): ?>
 		<span class="card-distributor__contact-name"><?= $contact ?></span>
 		<?php endif; ?>
-			<?php if( $contact): ?>
+			<?php if( $email): ?>
 			<span class="card-distributor__email"><?= $email ?></span>
 		<?php endif; ?>
 			<?php if( $phone): ?>
