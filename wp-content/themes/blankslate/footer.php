@@ -31,7 +31,7 @@
 			    	</div>
 			    	<div class="block-footer__newsletter-link">
 			    		<hr style="visibility: hidden;" >
-			    		<p>See our <a href="https://mailchi.mp/e8f58d97c8e1/zaiput-goes-to-the-iss-zaiputs-new-multistage-extraction-platform-and-more-1360469">most recent newsletter</a>.</p></div>
+			    		<p>See our <a target="_blank" href="https://mailchi.mp/e8f58d97c8e1/zaiput-goes-to-the-iss-zaiputs-new-multistage-extraction-platform-and-more-1360469">most recent newsletter</a>.</p></div>
 			    	<div class="block-footer__newsletter-signup">
 			    		<div id="mc_embed_signup">
 							<form action="http://eepurl.com/zs4wf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate=""><br><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="component-button"><br>
