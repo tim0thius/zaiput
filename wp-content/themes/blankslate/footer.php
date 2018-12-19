@@ -27,7 +27,6 @@
 			    		<a href="<?= the_field('twitter_url', 'option') ?>" class="block-footer__social-icon"><img src="/wp-content/themes/blankslate/assets/img/icon_TW.svg" alt=""></a>
 						<a href="<?= the_field('facebook_url', 'option') ?>" class="block-footer__social-icon"><img src="/wp-content/themes/blankslate/assets/img/icon_FB.svg" alt=""></a>
 						<a href="<?= the_field('linkedin_url', 'option') ?>" class="block-footer__social-icon"><img src="/wp-content/themes/blankslate/assets/img/icon_LI.svg" alt=""></a>
-						<a href="<?= the_field('googleplus_url', 'option') ?>" class="block-footer__social-icon"><img src="/wp-content/themes/blankslate/assets/img/icon_GP.svg" alt=""></a>
 			    	</div>
 			    	<div class="block-footer__newsletter-link">
 			    		<hr style="visibility: hidden;" >
