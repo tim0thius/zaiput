@@ -46,9 +46,10 @@
 
 	h3 {
 		border-bottom: 1px solid $LIGHT_GREY;
-		color: $RED;
+		color: $BLUE;
 		font-family: $HEADLINE_FONT;
 		font-size: 18px;
+		font-weight: 500;
 		margin-bottom: 30px;
 		padding-bottom: 5px;
 		text-transform: uppercase;
@@ -90,7 +91,7 @@
 	color: $RED;
 	font-family: $HEADLINE_FONT;
 	font-size: 28px;
-	font-weight: 100;
+	font-weight: 500;
 	margin-bottom: 30px;
 	text-transform: uppercase;
 }
