@@ -102,3 +102,9 @@ if ( ! defined( 'ABSPATH' ) )
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+/* -------------------------------------------------- /
+/* CUSTOM SETTINGS FOR WP-CONFIG.PHP */
+/* INCREASE PHP MEMORY TO 256 MB */
+define( ‘WP_MEMORY_LIMIT’, ‘256M’ );
+/* -------------------------------------------------- */
