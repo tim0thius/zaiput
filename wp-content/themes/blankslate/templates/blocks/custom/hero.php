@@ -1,4 +1,4 @@
-<section id="block-hero--" class="block-hero text-<?php the_sub_field('text_alignment'); ?>">
+<section id="block-hero--" class="block-hero block-hero--custom block-hero--text-only text--<?php the_sub_field('text_alignment'); ?> height--<?php the_sub_field('hero_height'); ?>">
 	<div class="grid__super-container-wrap" style="background-image: url(<?php the_sub_field('bg_img') ?>);">
 	<div class="grid__super-container">
 
