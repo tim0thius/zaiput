@@ -29,6 +29,10 @@
 		padding: 90px 30px;
 	}
 
+	.block-page__headline {
+		color: $BLUE;
+	}
+
 	.block-page__imagebox {
 		margin-bottom: 30px;
 		
@@ -49,6 +53,10 @@
 	}
 
 	.block-page__content {
+		height: 100%;
+		display: flex;
+		align-items: center;
+
 		@media screen and ( max-width: $PORTABLE - 1 ) {
 			margin-bottom: 0;
 
@@ -61,14 +69,60 @@
 
 .block-hero--custom {
 
+	.grid__super-container-wrap {
+
+		@media screen and ( min-width: $PALM ) {
+			padding: 0 30px;
+		}
+		
+		@media screen and ( min-width: $LAP ) {
+			padding: 0 60px;
+		}
+	}
+
 	.block-hero__headline {
 		@media screen and ( min-width: $LAP ) {
 			padding-left: 15px;
+		}
+	
+		@media screen and ( max-width: $LAP ) {
+			margin-bottom: 30px;
 		}
 		
 		span {
 			letter-spacing: .08em;
 			line-height: 1.5;
+		}
+	}
+
+	.block-hero__video {
+		padding-bottom: 50%;
+		position: relative;
+
+		iframe {
+			width: calc(100% - 50px);
+			position: absolute;
+			left: 25px;
+			top: 0;
+
+			@media screen and ( min-width: $LAP ) {
+				left: 15px;
+				width: calc(100% - 15px);
+			}
+
+		}
+	}	
+
+	&.video--left {
+		.grid--full {
+			flex-direction: row-reverse;
+		}
+
+		iframe {
+
+			@media screen and ( min-width: $LAP ) {
+				left: 0;
+			}
 		}
 	}
 }

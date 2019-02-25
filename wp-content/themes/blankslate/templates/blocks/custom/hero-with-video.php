@@ -1,4 +1,4 @@
-<section id="block-hero--" class="block-hero block-hero--custom">
+<section id="block-hero--" class="block-hero block-hero--custom video--<?php the_sub_field('video_alignment') ?>">
 	<div class="grid__super-container-wrap" style="background-image: url(<?php the_sub_field('bg_img') ?>);">
 	<div class="grid__super-container">
 
@@ -28,10 +28,10 @@
 							// echo "</pre>";
 
 						?>
-						<video autoplay controls muted loop id="block-hero__bg-video" class="block-hero__bg-video">
+						<video autoplay controls muted loop id="block-hero__bg-video" class="block-hero__bg-video" style="display: none;" >
 						  <source src="<?php echo $url ?>" type="<?php echo $type; ?>">
 						</video>
-						<!-- <iframe width="100%" height="" src="https://www.youtube.com/embed/<?php //the_sub_field('youtube_video_id'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+						<iframe width="100%" height="" src="https://www.youtube.com/embed/<?php the_sub_field('youtube_video_id'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>		
 				</div>
 			</div>
