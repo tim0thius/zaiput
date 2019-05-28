@@ -32,8 +32,8 @@
 .block-about__headline {
 	color: $RED;
 	font-family: $HEADLINE_FONT;
-	font-size: 28px;
-	font-weight: 500;
+	font-size: 36px;
+	font-weight: 300;
 	margin-bottom: 30px;
 	text-transform: uppercase;
 }
@@ -50,6 +50,7 @@
 	justify-content: center;
 	font-family: $BODY_FONT;
 	font-size: 18px;
+	font-weight: 400;
 	line-height: 1;
 }
 .block-about__readmore-link {
