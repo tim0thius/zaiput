@@ -66,7 +66,8 @@
 
 	#menu-menu-1 {
 		@include flex(center, center, row);
-		min-height: 36px;
+		margin-top: 15px;
+		min-height: 35px;
 	}
 
 	.sub-menu {
@@ -126,12 +127,12 @@
 		color: $DARK_GREY;
 		font-family: $BODY_FONT;
 		font-size: 18px;
-		font-weight: 300;
+		font-weight: 400;
 		letter-spacing: .05em;
 		margin: 10px 20px 10px 0;
 		text-align: left;
 		text-decoration: none;
-		text-transform: lowercase;
+		// text-transform: lowercase;
 		transition: color .3s;
 
 		&:hover {
