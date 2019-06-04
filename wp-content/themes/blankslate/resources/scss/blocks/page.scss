@@ -103,3 +103,19 @@
 		}
 	}
 }
+
+// Contact Us styles
+
+.page-id-139, .page-id-2 {
+	@media screen and ( max-width: $LAP - 1 ) {
+		.block-header__cta {
+			&--desktop {
+				display: none;
+			}
+		}
+
+		.block-footer {
+			padding-bottom: 30px;
+		}
+	}
+}
