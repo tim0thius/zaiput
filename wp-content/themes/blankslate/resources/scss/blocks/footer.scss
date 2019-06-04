@@ -6,7 +6,11 @@
 	background-size: cover;
 	box-shadow: inset -10px 0px 10px rgba(0,0,0,.3);
 	color: #fff;
-	padding: 60px 30px;
+	padding: 60px 30px 30px;
+
+	@media screen and ( max-width: $LAP - 1 ) {
+		padding-bottom: 80px;
+	}
 
 	.grid__container {
 		// max-width: 900px;
