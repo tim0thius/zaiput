@@ -13,13 +13,22 @@
 		<style>
 			.block-header__box {
 				background-color: <?php the_field('header_background_color') ?>;
-				color: #fff;
+				color: <?php the_field('header_text_color') ?>;
 			}
 
 			@media screen and (min-width: 768px) {
+				.block-header--menu .menu-item a {
+					color: <?php the_field('header_text_color') ?>
+				}
+				
+				.block-header--menu .menu-item a:hover {
+					color: <?php the_field('header_text_color') ?>
+				}
+				
 				.block-header--menu .sub-menu {
 					background-color: <?php the_field('header_background_color') ?>;
-				} 
+					color: <?php the_field('header_text_color') ?>
+				}
 			}
 		</style>
 	<?php endif; ?>
