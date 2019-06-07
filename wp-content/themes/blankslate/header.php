@@ -34,9 +34,9 @@ $header_class = get_field('use_alt_header') ? 'block-header--blue' : '';
 						} ?>
 						<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_html(get_bloginfo('name')); ?>" rel="home">
 							<?php if (get_field('use_alt_header')) : ?>
-								<img class="block-header__logo alt-logo" src="<?php the_field('header_logo_alt', 'option') ?>" alt="<?php echo esc_html(get_bloginfo('name')); ?>">
+								<img width="500" class="block-header__logo alt-logo" src="<?php the_field('header_logo_alt', 'option') ?>" alt="<?php echo esc_html(get_bloginfo('name')); ?>">
 							<?php else : ?>
-								<img class="block-header__logo" src="<?php the_field('header_logo', 'option') ?>" alt="<?php echo esc_html(get_bloginfo('name')); ?>">
+								<img width="500" class="block-header__logo" src="<?php the_field('header_logo', 'option') ?>" alt="<?php echo esc_html(get_bloginfo('name')); ?>">
 							<?php endif; ?>
 
 
