@@ -37,8 +37,11 @@
 		margin-bottom: 30px;
 		
 		img {
-			box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
 			width: 100%;
+
+			&.has_shadow {
+				box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+			}
 		}
 
 		@media screen and ( min-width: $PORTABLE ) {
