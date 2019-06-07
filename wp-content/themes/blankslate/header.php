@@ -15,12 +15,18 @@
 				background-color: <?php the_field('header_background_color') ?>;
 				color: #fff;
 			}
+
+			@media screen and (min-width: 768px) {
+				.block-header--menu .sub-menu {
+					background-color: <?php the_field('header_background_color') ?>;
+				} 
+			}
 		</style>
 	<?php endif; ?>
 </head>
 
 <?php
-$header_class = get_field('use_alt_header') ? 'block-header--blue' : '';
+$header_class = get_field('use_alt_header') ? 'block-header--alt' : '';
 ?>
 
 <body <?php body_class(); ?>>

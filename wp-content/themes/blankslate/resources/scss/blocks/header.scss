@@ -1,9 +1,13 @@
-.block-header--blue {
+.block-header--alt {
 	// background-color: $BLUE;
 	// color: #fff;
 	@media screen and ( min-width: $LAP ) {
-		ul:not(.sub-menu) > .menu-item > a {
+		.menu-item a {
 			color: #fff !important;
+			
+			&:hover {
+				opacity: .7;
+			}
 		}		
 	}
 
