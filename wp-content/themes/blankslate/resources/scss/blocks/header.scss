@@ -1,3 +1,13 @@
+.block-header--blue {
+	// background-color: $BLUE;
+	// color: #fff;
+	@media screen and ( min-width: $LAP ) {
+		ul:not(.sub-menu) > .menu-item > a {
+			color: #fff !important;
+		}		
+	}
+
+}
 .block-header {
 	@include flex(flex-start, center, row);
 

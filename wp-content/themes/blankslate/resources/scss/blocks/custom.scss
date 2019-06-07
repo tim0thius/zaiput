@@ -37,6 +37,7 @@
 		margin-bottom: 30px;
 		
 		img {
+			box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
 			width: 100%;
 		}
 
@@ -87,10 +88,11 @@
 	
 		@media screen and ( max-width: $LAP ) {
 			margin-bottom: 30px;
+			padding: 0 15px;
 		}
 		
 		span {
-			letter-spacing: .08em;
+			letter-spacing: .03em;
 			line-height: 1.5;
 		}
 	}
@@ -108,6 +110,11 @@
 	.block-hero__video {
 		padding: 0;
 		position: relative;
+
+		iframe, video {
+			box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+			height: 100%;
+		}
 
 
 		iframe {
