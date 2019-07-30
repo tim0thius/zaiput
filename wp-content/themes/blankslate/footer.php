@@ -24,9 +24,10 @@
 			    <section class="block-footer__social block-footer__column">
 			    	<h3 class="block-footer__heading">Follow Us</h3>
 			    	<div class="block-footer__logo-box">
-			    		<a href="<?= the_field('twitter_url', 'option') ?>" class="block-footer__social-icon"><img src="/wp-content/themes/blankslate/assets/img/icon_TW.svg" alt=""></a>
-						<a href="<?= the_field('facebook_url', 'option') ?>" class="block-footer__social-icon"><img src="/wp-content/themes/blankslate/assets/img/icon_FB.svg" alt=""></a>
-						<a href="<?= the_field('linkedin_url', 'option') ?>" class="block-footer__social-icon"><img src="/wp-content/themes/blankslate/assets/img/icon_LI.svg" alt=""></a>
+			    		<a href="<?= the_field('twitter_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_TW.svg" alt=""></a>
+						<a href="<?= the_field('facebook_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_FB.svg" alt=""></a>
+						<a href="<?= the_field('linkedin_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_LI.svg" alt=""></a>
+						<a href="<?= the_field('youtube_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_YT.svg" alt=""></a>
 			    	</div>
 			    	<div class="block-footer__newsletter-link">
 			    		<hr style="visibility: hidden;" >
