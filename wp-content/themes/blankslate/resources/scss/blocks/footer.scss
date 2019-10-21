@@ -217,6 +217,7 @@
 .block-footer__partners {
 	h3 {
 		text-align: left;
+        display: none;
 
 		@media screen and ( min-width: $LAP ) {
 			text-align: center;
