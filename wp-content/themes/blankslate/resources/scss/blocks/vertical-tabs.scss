@@ -152,6 +152,11 @@
         margin-top: 15px;
         color: $RED;
         padding-top: 10px;
+
+        a {
+            color: $RED;
+            font-weight: 400;
+        }
     }
 }
 .block-vertical-tabs__tab-container {
