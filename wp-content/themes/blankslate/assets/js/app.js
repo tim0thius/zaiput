@@ -99,7 +99,21 @@ jQuery(document).ready(function ($) {
 	$('.component-faq__question').click(function () {
 		$(this).parent().toggleClass('state--open');
 	});
+
+	video_fix_for_chrome();
 });
+
+function video_fix_for_chrome() {
+	// var isIE = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+	var isIE = /*@cc_on!@*/false || !!document.documentMode;
+
+	if (isIE) {
+		console.log('is IE');
+		jQuery('#block-hero--frontpage').addClass('video--youtube');
+		jQuery('body').addClass('is-ie');
+	}
+}
+// setTimeout(video_fix_for_chrome, 2000);
 
 /***/ }),
 /* 1 */
