@@ -11,7 +11,7 @@ $fax = get_sub_field('fax');
 <div class="card-distributor">
 	<div class="card-distributor__header">
 		<span class="card-distributor__country"><?= $country ?></span>
-		<img class="card-distributor__flag" src="<?= $flag ?>"  />
+		<img class="card-distributor__flag" src="<?= $flag ?>" alt=""  />
 	</div>
 	<div class="card-distributor__body">
 		<span class="card-distributor__company"><?= $company ?></span>
