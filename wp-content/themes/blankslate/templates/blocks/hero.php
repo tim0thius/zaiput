@@ -17,7 +17,7 @@ $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 
 				</div><!-- 
 				 --><div class="grid__item one-half portable--one-whole">
 					<div class="block-hero__video" >
-						<iframe width="100%" height="" src="https://www.youtube.com/embed/YXhM3XSPLog?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<iframe width="100%" height="" src="https://www.youtube.com/embed/YXhM3XSPLog?rel=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=YXhM3XSPLog" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
 						<video autoplay controls muted loop id="block-hero__bg-video" class="block-hero__bg-video">
 						  <source src="/wp-content/themes/blankslate/assets/video/bg.mp4" type="video/mp4">
 						</video>
