@@ -85,8 +85,11 @@
 	iframe, video {
 		box-shadow: 2px 2px 12px rgba(0,0,0,.2);
 		height: 100%;
-		// position: absolute;
 	}
+
+    iframe {
+        display: none;
+    }
 }
 .block-hero__bg-video {
 	height: auto;
@@ -101,6 +104,27 @@
 		width: 60%;
 	}
 
+}
+.video--youtube, .video--oembed {
+	.block-hero__video {
+		padding: 56.25% 0 0;
+
+		iframe {
+            display: block;
+			width: 100%;
+			position: absolute;
+			top: 0;
+
+			@media screen and ( min-width: $LAP ) {
+				width: 100%;
+			}
+
+		} 
+
+        video {
+            display: none;
+        }       
+	}	
 }
 .block-hero__content {
 	align-items: center;
@@ -287,3 +311,17 @@
 		}
 	}
 }
+
+// IE Fixes
+// .is-ie {
+//     .block-hero__video {
+
+//         iframe {
+//             display: block;
+//         }
+        
+//         video {
+//             display: none;
+//         }
+//     }
+// }
