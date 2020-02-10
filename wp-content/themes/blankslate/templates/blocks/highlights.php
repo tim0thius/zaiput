@@ -135,7 +135,7 @@
 										    	<?php if(get_sub_field('publication_url')): ?>
 										    		<a class="block-highlights__publication_link" href="<?php the_sub_field('publication_url'); ?>">
 										    	<?php endif; ?>
-										    		<img src="<?php the_sub_field('publication_logo'); ?>" class="block-highlights__publication_logo" />
+										    		<img src="<?php the_sub_field('publication_logo'); ?>" alt="<?php the_sub_field('alt_tag'); ?>" class="block-highlights__publication_logo" />
 										    	<?php if(get_sub_field('publication_url')): ?>
 										    		</a>
 										    	<?php endif; ?>

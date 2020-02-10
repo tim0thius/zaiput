@@ -24,10 +24,10 @@
 			    <section class="block-footer__social block-footer__column">
 			    	<h3 class="block-footer__heading">Follow Us</h3>
 			    	<div class="block-footer__logo-box">
-			    		<a href="<?= the_field('twitter_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_TW.svg" alt=""></a>
-						<a href="<?= the_field('facebook_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_FB.svg" alt=""></a>
-						<a href="<?= the_field('linkedin_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_LI.svg" alt=""></a>
-						<a href="<?= the_field('youtube_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_YT.svg" alt=""></a>
+			    		<a href="<?= the_field('twitter_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_TW.svg" alt="Follow us on Twitter"></a>
+						<a href="<?= the_field('facebook_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_FB.svg" alt="Follow us on Facebook"></a>
+						<a href="<?= the_field('linkedin_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_LI.svg" alt="Follow us on LinkedIn"></a>
+						<a href="<?= the_field('youtube_url', 'option') ?>" class="block-footer__social-icon"><img width="55" src="/wp-content/themes/blankslate/assets/img/icon_YT.svg" alt="Follow us on Youtube"></a>
 			    	</div>
 			    	<div class="block-footer__newsletter-link">
 			    		<hr style="visibility: hidden;" >
@@ -48,7 +48,7 @@
 						<?php if( have_rows('partners_logos', 'option') ): ?>
 						    <?php while( have_rows('partners_logos', 'option') ): the_row(); ?>
 						    	<a href="<?= the_sub_field('partner_url'); ?>">
-							        <img src="<?php the_sub_field('partner_logo'); ?>" class="block-footer__partner_logo" />
+							        <img src="<?php the_sub_field('partner_logo'); ?>" alt="<?php the_sub_field('alt_tag'); ?>" class="block-footer__partner_logo" />
 							    </a>
 						    <?php endwhile; ?>
 						<?php endif; ?>
