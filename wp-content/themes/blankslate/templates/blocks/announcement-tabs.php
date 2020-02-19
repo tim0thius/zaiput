@@ -14,7 +14,7 @@
 
     $today = strtotime("Today");
     $cutoff_date = strtotime("-2 day", $today);
-    $recent_cutoff_date = strtotime("-1 month", $today);
+    $recent_cutoff_date = strtotime("-6 months", $today);
 
     $cutoff_date =  date("Ymd", $cutoff_date);
     $recent_cutoff_date =  date("Ymd", $recent_cutoff_date);
@@ -129,9 +129,11 @@
 						<div class="card-announcement-item__divider"></div>
 					<?php endif; ?>
 				</div><!-- 
-				 --><?php $counter ++; endwhile; else: ?>
+				 --><?php $counter ++; endwhile; else: ?><!-- 
+			 --><div class="grid__item one-whole">
 				    There are no news. Please check back later.
-				<?php endif; ?>
+                    </div><!--
+				--><?php endif; ?>
 			</div>
 	 	</div>
 		<div class="block-vertical-tabs__content" id="events" >
@@ -179,9 +181,11 @@
                         <div class="card-announcement-item__divider"></div>
                     <?php endif; ?>
 					    </div><!-- 
-						 --><?php $counter ++; endwhile; else: ?>
-							    There are no events. Please check back later.
-							<?php endif; ?>
+						 --><?php $counter ++; endwhile; else: ?><!-- 
+			 --><div class="grid__item one-whole">
+				    There are no upcoming events. Please check back later.
+                    </div><!--
+				--><?php endif; ?>
 						</div>
             <hr style="border-width: 0 0 1px; height: 0; border-color: #ddd; margin-bottom: 30px;"/>
             <h4>Recent Events</h4>
@@ -227,9 +231,11 @@
                         <div class="card-announcement-item__divider"></div>
                     <?php endif; ?>
 					    </div><!-- 
-						 --><?php $past_counter ++; endwhile; else: ?>
-							    There are no events. Please check back later.
-							<?php endif; ?>
+						 --><?php $past_counter ++; endwhile; else: ?><!-- 
+			 --><div class="grid__item one-whole">
+				    There are no recent. Click below to view all past events.
+                    </div><!--
+				--><?php endif; ?>
 						</div>
                         <a href="/events" >View All Events</a>
 					</div>			
