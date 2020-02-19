@@ -39,8 +39,8 @@
         // border-bottom: 1px solid $LIGHT_GREY;
         color: $BLUE;
         font-family: $HEADLINE_FONT;
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 24px;
+        font-weight: 300;
         margin-bottom: 30px;
         padding-bottom: 5px;
         text-transform: uppercase;
@@ -147,7 +147,8 @@
     }
 
     &--ordering-info {
-        font-weight: 400;
+        font-weight: 300;
+        font-size: 24px;
         border-top: 1px solid #ddd;
         margin-top: 15px;
         color: $RED;
