@@ -11,7 +11,7 @@
 							<li class="block-vertical-tabs__tab"><a data-tab-target="features" class="action--open-tab" >Features</a></li>
 							@endif
 							@if(get_field(how_it_works_content))
-							<li class="block-vertical-tabs__tab"><a data-tab-target="how" class="action--open-tab" >How It Works</a></li>
+							<li class="block-vertical-tabs__tab"><a data-tab-target="how-it-works" class="action--open-tab" >How It Works</a></li>
 							@endif
 							@if(get_field(performance_content))
 							<li class="block-vertical-tabs__tab"><a data-tab-target="performance" class="action--open-tab" >Performance</a></li>
@@ -46,7 +46,7 @@
 							<!-- Features -->
 							{{the_field('features_content')}}
 						</div>
-						<div class="block-vertical-tabs__content" id="how" >
+						<div class="block-vertical-tabs__content" id="how-it-works" >
 							<!-- How It Works -->
 							{{the_field('how_it_works_content')}}
 						</div>
