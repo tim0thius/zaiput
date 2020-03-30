@@ -111,6 +111,47 @@
                 }
             }
         }
+
+        &.has-custom-image-headers {
+            border: none;
+
+            table {
+                border: 0 solid;
+            }
+
+            td.img-cell {
+                border-right: 1px solid #ddd;
+                border-bottom: none;
+                vertical-align: middle;
+
+                @media screen and ( max-width: $PALM ) {
+                    display: none;
+                }
+            }
+            .spacer {
+                border: none;
+            }
+
+            tbody {
+                &:not(.tbody--spacer) {
+                    border-right: 1px solid #ddd;
+                }
+
+                tr:nth-child(2) {
+                    th {
+                        border-top: 1px solid #ddd;
+                    }
+                }
+
+                &.mobile-image-header {
+                    display: none;
+
+                    @media screen and ( max-width: $PALM ) {
+                        display: block;
+                    }
+                }
+            }
+        }
     }
     .table-help {
         margin-top: 10px;
