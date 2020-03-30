@@ -117,6 +117,11 @@
 
             table {
                 border: 0 solid;
+
+                @media screen and ( max-width: $PALM ) {
+                    min-width: 0;
+                    width: calc(100% - 1px) !important;
+                }
             }
 
             td.img-cell {
@@ -135,6 +140,21 @@
             tbody {
                 &:not(.tbody--spacer) {
                     border-right: 1px solid #ddd;
+
+                    @media screen and ( max-width: $PALM ) {
+                        td, th {
+                            font-size: 13px;
+                            line-height: 1;
+                            padding: 10px 5px;
+
+                            &:first-child {
+                                border-left: 1px solid #ddd;
+                            }
+                            &:last-child {
+                                border-right: 1px solid #ddd;
+                            }
+                        }
+                    }
                 }
 
                 tr:nth-child(2) {
@@ -148,6 +168,11 @@
 
                     @media screen and ( max-width: $PALM ) {
                         display: block;
+                        border: 0 solid;
+
+                        td {
+                            border: 0 solid !important;
+                        }
                     }
                 }
             }
@@ -161,6 +186,9 @@
             display: none;
         }
     }
+}
+.has-custom-image-headers + .table-help  {
+    display: none;
 }
 .block-vertical-tabs__container {
     position: relative;
