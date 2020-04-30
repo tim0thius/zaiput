@@ -145,3 +145,27 @@
         padding-top: 10px;
     }
 }
+
+.flex-container {
+    display: flex;
+
+    .desc_img {
+        width: 100%;
+    }
+
+    &.img-400 {
+        .desc_img {
+            max-width: 400px;
+        }
+    }
+     &.img-300 {
+        .desc_img {
+            max-width: 300px;
+        }
+    }
+
+    @media screen and ( max-width: 800px ) {
+        flex-direction: column;
+    }
+    
+}
