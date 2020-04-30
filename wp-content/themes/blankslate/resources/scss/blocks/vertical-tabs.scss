@@ -118,7 +118,7 @@
             table {
                 border: 0 solid;
 
-                @media screen and ( max-width: $PALM ) {
+                @media screen and ( max-width: 700px ) {
                     min-width: 0;
                     width: calc(100% - 1px) !important;
                 }
@@ -129,7 +129,7 @@
                 border-bottom: none;
                 vertical-align: middle;
 
-                @media screen and ( max-width: $PALM ) {
+                @media screen and ( max-width: 700px ) {
                     display: none;
                 }
             }
@@ -141,7 +141,7 @@
                 &:not(.tbody--spacer) {
                     border-right: 1px solid #ddd;
 
-                    @media screen and ( max-width: $PALM ) {
+                    @media screen and ( max-width: 700px ) {
                         td, th {
                             font-size: 13px;
                             line-height: 1;
@@ -166,7 +166,7 @@
                 &.mobile-image-header {
                     display: none;
 
-                    @media screen and ( max-width: $PALM ) {
+                    @media screen and ( max-width: 700px ) {
                         display: block;
                         border: 0 solid;
 
