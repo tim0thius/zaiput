@@ -169,3 +169,22 @@
     }
     
 }
+
+.no-right-img-border {
+
+    th:first-child {
+        border-left: 1px solid #ddd;
+    }
+    th:last-child, td:not(.img-cell):last-child {
+        border-right: 1px solid #ddd !important;
+    }
+
+    .img-cell {
+        border-right: 0 solid !important;
+    }
+
+    table {
+        position: relative;
+        left: -1px;
+    }
+}
