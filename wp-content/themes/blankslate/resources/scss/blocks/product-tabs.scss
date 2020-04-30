@@ -184,7 +184,16 @@
     }
 
     table {
-        position: relative;
-        left: -1px;
+        height: auto !important;
+        @media screen and ( min-width: 481px ) {
+            position: relative;
+            left: -1px;
+        }
     }
+}
+
+.no-right-img-border + .table-help {
+@media screen and ( min-width: 481px ) and ( max-width: 1150px ) {
+            display: block !important;
+        }
 }
