@@ -193,7 +193,15 @@
 }
 
 .no-right-img-border + .table-help {
-@media screen and ( min-width: 481px ) and ( max-width: 1150px ) {
-            display: block !important;
-        }
+    @media screen and ( min-width: 481px ) and ( max-width: 1150px ) {
+        display: block !important;
+    }
+}
+
+.mt-lrg {
+    margin-top: 40px;
+
+     @media screen and ( min-width: 767px ) {
+        margin-top: 80px;
+    }
 }
