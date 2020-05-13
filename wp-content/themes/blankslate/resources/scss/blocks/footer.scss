@@ -196,9 +196,11 @@
     flex-direction: column;
     width: auto;
     align-items: flex-start;
+    margin-top: 30px;
 
     @media screen and ( min-width: $LAP ) {
     	align-items: center;
+        margin-top: 0;
     }
     
 
@@ -246,7 +248,11 @@
         background-color: #195485;
         border: 0 solid;
         cursor: pointer;
-        padding: 12px;
+        height: 50px;
+        padding: 0;
+        display: flex;
+        max-width: 200px; 
+        font-weight: 500;
 
         &:hover {
         	background-color: darken($RED, 5%);
